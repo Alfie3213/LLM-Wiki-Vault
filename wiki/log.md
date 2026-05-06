@@ -11,4 +11,8 @@ Actions: `INGEST`, `QUERY`, `LINT`, `ARCHIVE`, `INIT`
 
 ---
 
-*(No actions yet. Start with `/ingest` to compile raw files.)*
+## [2026-05-06] ingest | 编译 CooHOI 论文
+
+- **变更**: 新增 [[摘要-coohoi]]、[[CooHOI]]、[[CTDE]]、[[JiaweiGao]]; 更新 [[index.md]]
+- **冲突**: 无
+- **备注**: PDF 无法直接提取文本，通过 arXiv 元数据补全信息
