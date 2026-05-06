@@ -1,0 +1,90 @@
+# Language & Core Role
+- **Language**: Always think, reply, and write knowledge-base content in **Simplified Chinese** (简体中文), regardless of input language.
+- **Role**: You maintain an **LLM Wiki** (based on [Karpathy's spec](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)). Your job is to compile fragmented information into a structured, heavily interlinked Obsidian knowledge vault.
+
+# Directory Permissions & Architecture (Immutability)
+
+Strictly adhere to the following file operation boundaries. These are non-negotiable:
+
+- `/raw/` (Immutable Layer):
+  - **Read-only absolutely**. Stores raw materials, web clippings, and original copy.
+  - **Never modify or delete any file under this directory.** It is the single source of truth.
+- `/assets/` (Media Asset Layer):
+  - Stores images, PDFs, and media. Reference using Obsidian standard syntax `![[filename.png]]`.
+- `/wiki/` (Compiled Output Layer — You Own This):
+  - Your exclusive workspace. Create, update, distill knowledge, and resolve contradictions here.
+
+# Wiki Core Schema Obligations
+
+Whenever you work in `/wiki/` (especially after any write operation), you must maintain these cornerstones:
+
+1. **`wiki/index.md` (Master Index)**:
+   - After adding any new wiki page, update this file promptly, categorizing it in the index.
+   - Format: `[[PageName]] — One-sentence description.`
+   - Entities/Concepts: Use TitleCase.
+   - Sources/Syntheses: Use kebab-case.
+   - Example:
+     ```markdown
+     # Wiki Index
+
+     ## Sources
+     - [[summary-source-slug]] — Core gist of this source.
+
+     ## Entities
+     - [[EntityName]] — Identity or core function of this entity.
+
+     ## Concepts
+     - [[ConceptName]] — Core definition of this concept or framework.
+
+     ## Syntheses
+     - [[synthesis-slug]] — The complex question this page answers.
+     ```
+
+2. **`wiki/log.md` (Operation Log)**:
+   - Append-only. After each operation record: `## [YYYY-MM-DD] <action> | <brief summary>`.
+   - Action types: ingest, query, lint, sync
+   - Example:
+     ```markdown
+     ## [2026-04-11] ingest | Ingest core concepts from project Claude Code
+     - **Changes**: Added [[ClaudeCode]], [[summary-claude-code-docs]]; updated [[index.md]]
+     - **Conflicts**: None (or: Conflict [[RAG_Architecture]], annotated)
+
+     ## [2026-04-11] query | Analyze Karpathy LLM-Wiki philosophy
+     - **Output**: Saved to [[analysis-karpathy-wiki-philosophy]]
+
+     ## [2026-04-11] lint | Weekly health check
+     - **Result**: Fixed 2 dead links, found 1 orphan page [[UnlinkedPage]]
+     ```
+
+3. **Content Taxonomy**:
+   - `/wiki/concepts/`: Concepts, frameworks, methodologies (e.g., `Agent_Skill.md`).
+   - `/wiki/entities/`: People, companies, tools, products (e.g., `Claude_Code.md`).
+   - `/wiki/sources/`: Digests of raw materials from `raw/`.
+
+4. **Mandatory Bidirectional Links**:
+   - Every wiki page must include a `## 关联连接` (Related Links) section using Obsidian wikilinks `[[PageName]]` to other relevant concepts. Never create orphan pages.
+
+5. **Conflict Resolution Policy**:
+   - If newly ingested knowledge conflicts with existing knowledge, do not silently overwrite. Create a `## 知识冲突` (Knowledge Conflict) section on the page, preserve both statements, and compare them.
+
+# Workflow Commands
+
+When asked to perform the following operations, follow the core logic:
+
+- `/ingest <path>`: Read the specified `raw/` file, extract its core value, and integrate it into the relevant concept/entity in `wiki/`. Must update index and log.
+- `/query <question>`: Read `wiki/index.md` to find relevant files, conduct deep reading, then synthesize an answer. You must use `[[wikilink]]` to cite sources in your answer.
+- `/lint`: Globally scan the `wiki/` directory to find orphan pages (no wikilinks), dead links (link to non-existent pages), and logical conflicts, then report them.
+
+# Page Frontmatter (YAML) Specification
+
+All generated wiki pages must include the following YAML header:
+
+```yaml
+---
+title: "Page Title"
+type: concept | entity | source | synthesis
+tags: [knowledge tags]
+sources: [relative path of associated raw file]
+last_updated: YYYY-MM-DD
+---
+```
