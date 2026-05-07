@@ -39,3 +39,9 @@ Actions: `INGEST`, `QUERY`, `LINT`, `ARCHIVE`, `INIT`
 ## [2026-05-07] query | 逆强化学习
 
 - **输出**: [[InverseReinforcementLearning]]、[[RC_IRL]]、[[2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]]、[[摘要-auto-tuning-framework-autonomous-vehicles]]
+
+## [2026-05-07] ingest | 编译 arXiv:2407.19902 (DDP-based IRL)
+
+- **变更**: 新增 [[摘要-ddp-framework-inverse-reinforcement-learning]]、[[KunCao]]、[[WanxinJin]]、[[KarlHJohansson]]、[[LihuaXie]]、[[XinhangXu]]、[[DifferentialDynamicProgramming]]、[[PontryaginsMaximumPrinciple]]、[[InverseOptimalControl]]、[[ClosedLoopIRL]]; 更新 [[InverseReinforcementLearning]]、[[index.md]]
+- **冲突**: 无
+- **备注**: arXiv URL 摄入，无本地文件需归档
