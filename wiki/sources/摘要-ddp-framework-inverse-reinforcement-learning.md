@@ -29,3 +29,4 @@ last_updated: 2026-05-07
 - [[PontryaginsMaximumPrinciple]] — 与本文方法建立等价性的经典方法
 - [[InverseOptimalControl]] — 本文闭环 IRL 框架的特例
 - [[ClosedLoopIRL]] — 本文提出的闭环 IRL 框架
+- [[2024-Cao-DDP-Framework-IRL]] — 本文的 L3 精读笔记（详细阅读）

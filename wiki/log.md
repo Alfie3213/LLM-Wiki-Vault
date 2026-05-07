@@ -45,3 +45,16 @@ Actions: `INGEST`, `QUERY`, `LINT`, `ARCHIVE`, `INIT`
 - **变更**: 新增 [[摘要-ddp-framework-inverse-reinforcement-learning]]、[[KunCao]]、[[WanxinJin]]、[[KarlHJohansson]]、[[LihuaXie]]、[[XinhangXu]]、[[DifferentialDynamicProgramming]]、[[PontryaginsMaximumPrinciple]]、[[InverseOptimalControl]]、[[ClosedLoopIRL]]; 更新 [[InverseReinforcementLearning]]、[[index.md]]
 - **冲突**: 无
 - **备注**: arXiv URL 摄入，无本地文件需归档
+
+## [2026-05-07] scholar-skill | L3 精读 arXiv:2407.19902 (DDP-based IRL)
+
+- **变更**: 新增 [[2024-Cao-DDP-Framework-IRL]]（L3 精读笔记，~14KB）
+- **升级**: 更新 [[ClosedLoopIRL]]（补充闭环损失函数、梯度推导、LM 更新、可恢复性条件、优劣势分析）
+- **升级**: 更新 [[InverseReinforcementLearning]]（补充 DDP-based IRL 链接）
+- **升级**: 更新 [[DifferentialDynamicProgramming]]（补充逆问题梯度计算、BarrierDDP、与 PDP 等价性）
+- **升级**: 更新 [[InverseOptimalControl]]（补充约束可恢复性条件、线性参数化假设）
+- **升级**: 更新 [[摘要-ddp-framework-inverse-reinforcement-learning]]（补充 L3 笔记链接）
+- **升级**: 更新 [[index.md]]（新增 L3 笔记索引）
+- **记忆抽取**: 11 条（5 Semantic + 3 Episodic + 3 Procedural）
+- **冲突**: 无
+- **备注**: 优先级 P0，L3 精读标准，arXiv PDF 通过 requests 下载后 PyPDF2 提取文本，20 页
