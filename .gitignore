@@ -4,7 +4,8 @@
 
 ### Obsidian ###
 # config dir
-.obsidian/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
 
 ### VisualStudioCode ###
 .vscode/*
