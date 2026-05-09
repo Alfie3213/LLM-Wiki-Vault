@@ -126,13 +126,13 @@ FSM 控制器包含四个行为模式：Lane Following、Obstacle Avoidance、Dr
 
 **能量函数 E = E_lane + E_lidar + E_jerk + E_stability + E_expert**：
 
-| 能量项 | 公式 | 作用 |
-|--------|------|------|
-| E_lane | w_lane * (d_lane,t / s_lane)^2 | 车道保持，w_lane = w_lane^base * (1 + α_hazard * h_t) 风险自适应 |
-| E_lidar | w_lidar * max(0, (d_plan^safe - d_min,t) / s_lidar)^2 | 障碍物避让，w_lidar = w_lidar^base * (1 + h_t) |
-| E_jerk | w_jerk * (1/(H-1)) * Σ ||a_i - a_{i-1}||^2 | 控制平滑性 |
-| E_stability | w_stab * (1/H) * Σ (steer_i^2 + (speed_i - v_ref)^2) | 稳定性 |
-| E_expert | w_exp * (1/H) * Σ ||a_i - a_expert_i||^2 | 专家对齐（可选） |
+| 能量项         | 公式                                                    | 作用                                                     |                  |     |     |          |
+| ----------- | ----------------------------------------------------- | ------------------------------------------------------ | ---------------- | --- | --- | -------- |
+| E_lane      | w_lane * (d_lane,t / s_lane)^2                        | 车道保持，w_lane = w_lane^base * (1 + α_hazard * h_t) 风险自适应 |                  |     |     |          |
+| E_lidar     | w_lidar * max(0, (d_plan^safe - d_min,t) / s_lidar)^2 | 障碍物避让，w_lidar = w_lidar^base * (1 + h_t)               |                  |     |     |          |
+| E_jerk      | w_jerk * (1/(H-1)) * Σ                                |                                                        | a_i - a_{i-1}    |     | ^2  | 控制平滑性    |
+| E_stability | w_stab * (1/H) * Σ (steer_i^2 + (speed_i - v_ref)^2)  | 稳定性                                                    |                  |     |     |          |
+| E_expert    | w_exp * (1/H) * Σ                                     |                                                        | a_i - a_expert_i |     | ^2  | 专家对齐（可选） |
 
 **危险水平**：h_t = clamp(1 - tanh(d_min,t / s_h), 0, 1)，s_h = 3.0
 
