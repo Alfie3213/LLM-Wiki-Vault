@@ -22,6 +22,7 @@ last_updated: 2026-05-09
 
 ## 关联连接
 
+- [[2026-IRL-DAL]] — L3 精读笔记（完整技术细节与批判性分析）
 - [[IRLDAL]] — 本文提出的基于扩散模型的 IRL 自适应轨迹规划框架
 - [[EnergyGuidedDiffusion]] — 能量引导扩散模型技术
 - [[DiffusionBasedPlanning]] — 基于扩散模型的运动规划范式

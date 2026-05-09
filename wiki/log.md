@@ -11,6 +11,20 @@ Actions: `INGEST`, `QUERY`, `LINT`, `ARCHIVE`, `INIT`
 
 ---
 
+## [2026-05-09] scholar-skill | L3 精读 IRL-DAL 论文 (arXiv:2601.23266)
+
+- **变更**: 新增 [[sources/2026-IRL-DAL]]（L3 精读笔记，~12KB）
+- **升级**: 更新 [[IRLDAL]]（补充完整技术架构: LAM 公式、五能量项、SAEC 机制、消融数据、超参数表）
+- **升级**: 更新 [[EnergyGuidedDiffusion]]（补充具体能量项公式、风险自适应权重、动作混合逻辑）
+- **升级**: 更新 [[DiffusionBasedPlanning]]（补充"扩散模型作安全盾"定位、条件向量、引导公式）
+- **升级**: 更新 [[LearnableAdaptiveMask]]（补充完整公式链、BC 端到端训练、消融验证）
+- **升级**: 更新 [[SeyedAhmadHosseiniMiangoleh]]（补充机构信息、研究兴趣）
+- **升级**: 更新 [[摘要-irl-dal]]（补充 L3 笔记链接）
+- **升级**: 更新 [[index.md]]（新增 L3 笔记索引）
+- **记忆抽取**: 14 条（6 Semantic + 2 Episodic + 3 Procedural + 3 知识升级）
+- **冲突**: 无
+- **备注**: 优先级 P1，L3 精读标准，arXiv PDF 通过 requests 下载后 PyPDF2 提取文本，10 页
+
 ## [2026-05-09] ingest | 编译 arXiv:2601.23266 (IRL-DAL)
 
 - **变更**: 新增 [[摘要-irl-dal]]、[[IRLDAL]]、[[EnergyGuidedDiffusion]]、[[DiffusionBasedPlanning]]、[[LearnableAdaptiveMask]]、[[SeyedAhmadHosseiniMiangoleh]]、[[AminJalalAghdasian]]、[[FarzanehAbdollahi]]; 更新 [[InverseReinforcementLearning]]、[[index.md]]

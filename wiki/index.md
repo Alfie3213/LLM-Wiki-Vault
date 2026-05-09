@@ -86,6 +86,12 @@ earning]] — A Differential Dynamic Programmin
 g Framework for Inverse Reinforcement Learnin
 g: 基于 DDP 的 IRL 框架，提出闭环 IRL 与逆最
 优控制理论联系
+- [[sources/2026-IRL-DAL]] — IRL-DAL: Safe a
+nd Adaptive Trajectory Planning for Autonomou
+s Driving via Energy-Guided Diffusion Models:
+ 基于能量引导扩散模型的 IRL 安全自适应轨迹
+规划框架，SAEC 解耦安全盾 + LAM 极简注意力 +
+ 能量引导扩散（L3 精读笔记）
 - [[摘要-irl-dal]] — IRL-DAL: Safe and Adapti
 ve Trajectory Planning for Autonomous Driving 
 via Energy-Guided Diffusion Models: 基于能量
