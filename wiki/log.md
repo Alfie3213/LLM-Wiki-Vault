@@ -17,6 +17,22 @@ Actions: `INGEST`, `QUERY`, `LINT`, `ARCHIVE`, `INIT`
 
 ---
 
+## [2026-05-09] scholar-skill | L3 精读 SMIRL 论文 (arXiv:2006.13704)
+
+- **变更**: 新增 [[sources/2020-Efficient-Sampling-Based-Maximum-Entropy-IRL]]（L3 精读笔记，~12KB）
+- **升级**: 更新 [[SMIRL]]（补充完整技术架构: Boltzmann 模型公式、配分函数近似、一次性采样设计、样本重分布关键发现、实验对比表格）
+- **升级**: 更新 [[MaximumEntropyIRL]]（补充 CIOC/Opt-IRL/SMIRL 三种连续域扩展策略对比）
+- **升级**: 更新 [[InverseReinforcementLearning]]（补充 L3 笔记链接、SMIRL 核心规则）
+- **升级**: 更新 [[摘要-efficient-sampling-based-maximum-entropy-irl]]（补充 L3 笔记链接）
+- **升级**: 更新 [[ZhengWu]]（补充 L3 笔记链接）
+- **升级**: 更新 [[LitingSun]]（补充 L3 笔记链接）
+- **升级**: 更新 [[WeiZhan]]（补充 L3 笔记链接）
+- **升级**: 更新 [[MasayoshiTomizuka]]（补充 L3 笔记链接）
+- **升级**: 更新 [[index.md]]（新增 L3 笔记索引）
+- **记忆抽取**: 9 条（5 Semantic + 2 Episodic + 2 Procedural）
+- **冲突**: 无
+- **备注**: 优先级 P1，L3 精读标准，arXiv PDF 通过 requests 下载后 PyPDF2 提取文本，9 页
+
 ## [2026-05-09] scholar-skill | L3 精读 IRL-DAL 论文 (arXiv:2601.23266)
 
 - **变更**: 新增 [[sources/2026-IRL-DAL]]（L3 精读笔记，~12KB）

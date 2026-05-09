@@ -56,4 +56,5 @@ last_updated: 2026-05-09
 - [[摘要-auto-tuning-framework-autonomous-vehicles]] — 论文核心摘要
 - [[摘要-irl-dal]] — IRL-DAL 论文核心摘要
 - [[摘要-efficient-sampling-based-maximum-entropy-irl]] — SMIRL 论文核心摘要
+- [[2020-Efficient-Sampling-Based-Maximum-Entropy-IRL]] — SMIRL 论文 L3 精读笔记（~12KB，含完整方法推导、实验分析、批判性反思）
 - [[CTDE]] — 集中训练分散执行，多智能体学习中的条件化思想
