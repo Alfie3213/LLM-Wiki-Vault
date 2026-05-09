@@ -6,29 +6,7 @@
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "tag:#研究者  ",
-      "color": {
-        "a": 1,
-        "rgb": 14069596
-      }
-    },
-    {
-      "query": "path:wiki/concepts  ",
-      "color": {
-        "a": 1,
-        "rgb": 6059222
-      }
-    },
-    {
-      "query": "path:wiki/sources  ",
-      "color": {
-        "a": 1,
-        "rgb": 14048348
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -39,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.5541944718861747,
+  "scale": 0.8854989543150362,
   "close": true
 }
