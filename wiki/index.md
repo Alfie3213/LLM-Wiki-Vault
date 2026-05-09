@@ -55,7 +55,7 @@ ction-and-planning]] — Differentiable Integr
 ated Motion Prediction and Planning: 可微分
 集成预测与规划框架，使代价函数可从数据中自动
 学习 (arXiv:2207.10422v2)
-- [[2022-Huang-DIPP]] — Differentiable Inte
+- [[sources/2022-Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving]] — Differentiable Inte
 grated Motion Prediction and Planning: 可微分
 集成预测与规划框架，Transformer 预测 + Gauss
 -Newton 可微分优化器 + 可学习代价函数（L3 
