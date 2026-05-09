@@ -5,5 +5,10 @@
   "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-mocha",
   "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-full-palette",
   "catppuccin-pdf@@ctp-pdf-darken": true,
-  "catppuccin-pdf@@ctp-pdf-blend": true
+  "catppuccin-pdf@@ctp-pdf-blend": true,
+  "catppuccin-font-styles@@ctp-bold": "var(--ctp-red)",
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
+  "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-pink",
+  "anuppuccin-theme-settings@@anp-active-line": "anp-current-line"
 }
