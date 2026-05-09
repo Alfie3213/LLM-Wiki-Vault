@@ -11,6 +11,12 @@ Actions: `INGEST`, `QUERY`, `LINT`, `ARCHIVE`, `INIT`
 
 ---
 
+## [2026-05-09] ingest | 编译 DIPP 论文 (arXiv:2207.10422v2)
+
+- **变更**: 新增 [[摘要-differentiable-integrated-motion-prediction-and-planning]]、[[DIPP]]、[[DifferentiableMotionPlanning]]、[[IntegratedPredictionAndPlanning]]、[[ZhiyuHuang]]、[[HaochenLiu]]、[[JingdaWu]]、[[ChenLv]]; 更新 [[index.md]]
+- **冲突**: 无
+- **备注**: PDF 通过 PyPDF2 提取文本，15 页，南洋理工大学团队提出的可微分集成预测与规划框架
+
 ## [2026-05-07] ingest | 编译 Auto-tuning Framework for Autonomous Vehicles 论文
 
 - **变更**: 新增 [[摘要-auto-tuning-framework-autonomous-vehicles]]、[[Apollo]]、[[HaoyangFan]]、[[RC_IRL]]、[[InverseReinforcementLearning]]; 更新 [[index.md]]

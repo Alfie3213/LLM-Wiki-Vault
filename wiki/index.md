@@ -7,6 +7,9 @@
 
 ## 🏗️ Concepts (抽象层)
 
+- [[DIPP]] — 可微分集成预测与规划框架，通过端到端可微分架构联合优化自动驾驶中的轨迹预测与运动规划
+- [[DifferentiableMotionPlanning]] — 将经典运动规划优化器以可微分形式嵌入神经网络的技术范式
+- [[IntegratedPredictionAndPlanning]] — 打破预测与规划模块壁垒、实现联合优化的自动驾驶系统架构范式
 - [[CooHOI]] — 多智能体协作人机交互框架，通过
 物体动力学实现隐式通信
 - [[CTDE]] — 集中训练分散执行的多智能体强化学
@@ -27,6 +30,10 @@
 
 ## 👥 Entities (实体层)
 
+- [[ZhiyuHuang]] — DIPP 论文第一作者，南洋理工大学自动驾驶与运动规划研究者
+- [[HaochenLiu]] — DIPP 共同作者，南洋理工大学自动驾驶研究者
+- [[JingdaWu]] — DIPP 共同作者，南洋理工大学机器人学研究者
+- [[ChenLv]] — 南洋理工大学教授，IEEE Senior Member，DIPP 通讯作者
 - [[Apollo]] — 百度开源的 L4 级自动驾驶平台
 - [[HaoyangFan]] — 自动驾驶与机器学习研究者，R
 C-IRL 自动调参框架论文第一作者
@@ -43,6 +50,11 @@ ased IRL 框架论文第一作者
 
 ## 🔍 Sources (来源层)
 
+- [[摘要-differentiable-integrated-motion-predi
+ction-and-planning]] — Differentiable Integr
+ated Motion Prediction and Planning: 可微分
+集成预测与规划框架，使代价函数可从数据中自动
+学习 (arXiv:2207.10422v2)
 - [[2018-Fan-Auto-tuning-Framework-Autonomous-
 Vehicles]] — An Auto-tuning Framework for Auto
 nomous Vehicles: 基于 Apollo 平台和 RC-IRL 算
@@ -67,4 +79,4 @@ bject Dynamics (NeurIPS 2024 Spotlight)
 
 > ℹ️ This index is automatically updated by the
   and  skills.
-> Last updated: 2026-05-07
+> Last updated: 2026-05-09
