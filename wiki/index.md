@@ -21,6 +21,8 @@
 - [[DiffusionBasedPlanning]] — 利用扩散生成模型进行轨迹或路径规划的范式
 - [[LearnableAdaptiveMask]] — 根据车速和周围危险动态调整视觉注意力的自适应感知机制
 - [[ClosedLoopIRL]] — 使用闭环损失函数捕捉专家示范闭环特性的逆强化学习框架
+- [[SMIRL]] — 基于采样的最大熵逆强化学习算法，在连续域中高效学习可解释的人类驾驶奖励函数
+- [[MaximumEntropyIRL]] — 通过最大熵原理解决奖励函数歧义性的逆强化学习基础方法
 
 ## 👥 Entities (实体层)
 
@@ -40,6 +42,11 @@
 - [[AminJalalAghdasian]] — IRL-DAL 共同作者
 - [[FarzanehAbdollahi]] — IRL-DAL 共同作者
 - [[XinhangXu]] — 机器人学与控制理论研究学者
+- [[ZhengWu]] — SMIRL 论文共同第一作者，加州大学伯克利分校机器人学研究者
+- [[LitingSun]] — SMIRL 论文共同第一作者兼通讯作者，伯克利自动驾驶与逆强化学习研究者
+- [[WeiZhan]] — 伯克利研究者，INTERACTION 数据集核心贡献者
+- [[ChenyuYang]] — 上海交通大学研究者，访问伯克利期间参与 SMIRL 研究
+- [[MasayoshiTomizuka]] — 加州大学伯克利分校教授，机器人学与控制理论领域著名学者
 
 ## 🔍 Sources (来源层)
 
@@ -58,6 +65,7 @@
 - [[摘要-irl-dal]] — IRL-DAL: Safe and Adaptive Trajectory Planning for Autonomous Driving via Energy-Guided Diffusion Models: 基于能量引导扩散模型的 IRL 安全自适应轨迹规划框架 (a
 rXiv:2601.23266)
 - [[摘要-coohoi]] — CooHOI: Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics (NeurIPS 2024 Spotlight)
+- [[摘要-efficient-sampling-based-maximum-entropy-irl]] — Efficient Sampling-Based Maximum Entropy IRL: 基于采样的最大熵逆强化学习算法，在连续域中从人类驾驶数据学习奖励函数 (arXiv:2006.13704)
 
 ## 💎 Syntheses (综合层)
 

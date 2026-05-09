@@ -1,3 +1,9 @@
+## [2026-05-09] ingest | 编译 arXiv:2006.13704 (SMIRL)
+
+- **变更**: 新增 [[摘要-efficient-sampling-based-maximum-entropy-irl]]、[[SMIRL]]、[[MaximumEntropyIRL]]、[[ZhengWu]]、[[LitingSun]]、[[WeiZhan]]、[[ChenyuYang]]、[[MasayoshiTomizuka]]; 更新 [[InverseReinforcementLearning]]、[[index.md]]
+- **冲突**: 无
+- **备注**: arXiv URL 摄入，无本地文件需归档，基于采样的最大熵逆强化学习，9页
+
 # Wiki Behavior Log
 
 行为流水线：以 Grep-friendly 格式记录 ingest/query 历史。

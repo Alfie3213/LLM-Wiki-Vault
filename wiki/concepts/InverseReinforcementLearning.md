@@ -2,8 +2,8 @@
 title: "Inverse Reinforcement Learning"
 type: concept
 tags: [强化学习, 模仿学习, 奖励学习, 逆强化学习]
-sources: [raw/02-papers/An Auto-tuning Framework for Autonomous Vehicles.pdf]
-last_updated: 2026-05-07
+sources: [raw/02-papers/An Auto-tuning Framework for Autonomous Vehicles.pdf, https://arxiv.org/abs/2006.13704]
+last_updated: 2026-05-09
 ---
 
 ## 定义
@@ -31,6 +31,12 @@ last_updated: 2026-05-07
 - **最大间隔法（Maximum Margin）**：Ratliff 等将 IRL 扩展为广义最大间隔优化问题
 - **最大熵 IRL（MaxEnt IRL）**：Ziebart 等通过最大熵原理解决奖励函数歧义性问题
 
+### 连续域 IRL 方法
+针对高维连续空间中的奖励学习，研究者提出了多种扩展方法：
+- **CIOC（Continuous-domain IRL）**：Levine & Koltun 提出通过 Laplace 近似在连续域中估计配分函数，但要求示范必须为最优或次优
+- **Opt-IRL**：Kuderer 等通过求解优化问题生成最优轨迹来近似期望特征计数，计算开销随规划时域急剧增长
+- **SMIRL**：Wu & Sun 等提出基于采样的最大熵 IRL，通过高效轨迹采样器和特征空间重分布，直接在连续域中学习可解释奖励函数，同时兼容非最优示范的不确定性
+
 ### 自动驾驶中的应用
 在自动驾驶运动规划中，IRL 被用于从人类专家驾驶数据中学习奖励/代价函数，以自动调参运动规划器，替代传统耗时的人工调参方式。
 
@@ -44,7 +50,10 @@ last_updated: 2026-05-07
 
 - [[IRLDAL]] — 结合扩散模型与 IRL 的自动驾驶安全自适应轨迹规划框架
 - [[RC_IRL]] — 针对自动驾驶场景优化的 IRL 变体，解决传统 IRL 计算昂贵和安全性问题
+- [[SMIRL]] — 基于采样的最大熵 IRL 算法，在连续域中高效学习人类驾驶奖励函数
+- [[MaximumEntropyIRL]] — 最大熵逆强化学习理论基础
 - [[2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]] — 将 IRL 应用于 Apollo 自动驾驶平台运动规划器调参的论文（L3 精读笔记）
 - [[摘要-auto-tuning-framework-autonomous-vehicles]] — 论文核心摘要
 - [[摘要-irl-dal]] — IRL-DAL 论文核心摘要
+- [[摘要-efficient-sampling-based-maximum-entropy-irl]] — SMIRL 论文核心摘要
 - [[CTDE]] — 集中训练分散执行，多智能体学习中的条件化思想
