@@ -2,7 +2,7 @@
 title: "Inverse Reinforcement Learning"
 type: concept
 tags: [强化学习, 模仿学习, 奖励学习, 逆强化学习]
-sources: [raw/02-papers/An Auto-tuning Framework for Autonomous Vehicles.pdf, https://arxiv.org/abs/2006.13704]
+sources: [raw/02-papers/An Auto-tuning Framework for Autonomous Vehicles.pdf, https://arxiv.org/abs/2006.13704, https://arxiv.org/abs/1905.00229]
 last_updated: 2026-05-09
 ---
 
@@ -36,6 +36,7 @@ last_updated: 2026-05-09
 - **CIOC（Continuous-domain IRL）**：Levine & Koltun 提出通过 Laplace 近似在连续域中估计配分函数，但要求示范必须为最优或次优
 - **Opt-IRL**：Kuderer 等通过求解优化问题生成最优轨迹来近似期望特征计数，计算开销随规划时域急剧增长
 - **SMIRL**：Wu & Sun 等提出基于采样的最大熵 IRL，通过高效轨迹采样器和特征空间重分布，直接在连续域中学习可解释奖励函数，同时兼容非最优示范的不确定性
+- **路径积分 MaxEnt IRL（Rosbach & Roth 等）**：将最大熵 IRL 与通用型规划器集成，利用规划器图表示近似配分函数，在大众原型车上验证学习奖励超越专家手动调参
 
 ### 自动驾驶中的应用
 在自动驾驶运动规划中，IRL 被用于从人类专家驾驶数据中学习奖励/代价函数，以自动调参运动规划器，替代传统耗时的人工调参方式。
@@ -57,4 +58,7 @@ last_updated: 2026-05-09
 - [[摘要-irl-dal]] — IRL-DAL 论文核心摘要
 - [[摘要-efficient-sampling-based-maximum-entropy-irl]] — SMIRL 论文核心摘要
 - [[2020-Efficient-Sampling-Based-Maximum-Entropy-IRL]] — SMIRL 论文 L3 精读笔记（~12KB，含完整方法推导、实验分析、批判性反思）
+- [[摘要-driving-with-style-irl-general-purpose-planning]] — Driving with Style: 将 MaxEnt IRL 与通用型规划器集成，在真实车辆上实现奖励自动调参 (arXiv:1905.00229)
+- [[2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — Driving with Style 论文 L3 精读笔记（~13KB，含规划器算法推导、路径积分 IRL 公式、投影度量分析、实验评估）
+- [[GeneralPurposePlanner]] — 通用型规划器范式
 - [[CTDE]] — 集中训练分散执行，多智能体学习中的条件化思想

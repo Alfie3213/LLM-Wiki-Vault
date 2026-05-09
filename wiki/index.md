@@ -23,6 +23,7 @@
 - [[ClosedLoopIRL]] — 使用闭环损失函数捕捉专家示范闭环特性的逆强化学习框架
 - [[SMIRL]] — 基于采样的最大熵逆强化学习算法，在连续域中高效学习可解释的人类驾驶奖励函数
 - [[MaximumEntropyIRL]] — 通过最大熵原理解决奖励函数歧义性的逆强化学习基础方法
+- [[GeneralPurposePlanner]] — 将行为规划与局部运动规划整合到单一框架的自动驾驶规划范式
 
 ## 👥 Entities (实体层)
 
@@ -47,6 +48,11 @@
 - [[WeiZhan]] — 伯克利研究者，INTERACTION 数据集核心贡献者
 - [[ChenyuYang]] — 上海交通大学研究者，访问伯克利期间参与 SMIRL 研究
 - [[MasayoshiTomizuka]] — 加州大学伯克利分校教授，机器人学与控制理论领域著名学者
+- [[SaschaRosbach]] — 大众集团研究者，通用型规划器与 IRL 集成方法第一作者
+- [[VinitJames]] — 大众集团研究者
+- [[SimonGrossjohann]] — 大众集团研究者
+- [[SilviuHomoceanu]] — 大众集团研究者
+- [[StefanRoth]] — 达姆施塔特工业大学教授，Visual Inference Lab 负责人
 
 ## 🔍 Sources (来源层)
 
@@ -67,6 +73,8 @@ rXiv:2601.23266)
 - [[摘要-coohoi]] — CooHOI: Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics (NeurIPS 2024 Spotlight)
 - [[摘要-efficient-sampling-based-maximum-entropy-irl]] — Efficient Sampling-Based Maximum Entropy IRL: 基于采样的最大熵逆强化学习算法，在连续域中从人类驾驶数据学习奖励函数 (arXiv:2006.13704)
 - [[sources/2020-Efficient-Sampling-Based-Maximum-Entropy-IRL]] — SMIRL 论文 L3 精读笔记（~12KB，含完整方法推导、实验分析、批判性反思、记忆抽取）
+- [[摘要-driving-with-style-irl-general-purpose-planning]] — Driving with Style: 将 MaxEnt IRL 与通用型规划器集成，在真实车辆上实现奖励自动调参，学习效果超越专家手动调参 (arXiv:1905.00229)
+- [[sources/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — Driving with Style 论文 L3 精读笔记（~13KB，含规划器算法推导、路径积分 IRL 公式、投影度量分析、实验评估、记忆抽取）
 
 ## 💎 Syntheses (综合层)
 

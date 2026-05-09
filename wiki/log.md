@@ -1,3 +1,9 @@
+## [2026-05-09] ingest | 编译 arXiv:1905.00229 (Driving with Style)
+
+- **变更**: 新增 [[摘要-driving-with-style-irl-general-purpose-planning]]、[[GeneralPurposePlanner]]、[[SaschaRosbach]]、[[VinitJames]]、[[SimonGrossjohann]]、[[SilviuHomoceanu]]、[[StefanRoth]]; 更新 [[InverseReinforcementLearning]]、[[MaximumEntropyIRL]]、[[index.md]]
+- **冲突**: 无
+- **备注**: arXiv URL 摄入，无本地文件需归档，IROS 2019，大众集团 + 达姆施塔特工业大学，8 页，将 MaxEnt IRL 与通用型规划器集成
+
 ## [2026-05-09] ingest | 编译 arXiv:2006.13704 (SMIRL)
 
 - **变更**: 新增 [[摘要-efficient-sampling-based-maximum-entropy-irl]]、[[SMIRL]]、[[MaximumEntropyIRL]]、[[ZhengWu]]、[[LitingSun]]、[[WeiZhan]]、[[ChenyuYang]]、[[MasayoshiTomizuka]]; 更新 [[InverseReinforcementLearning]]、[[index.md]]
@@ -16,6 +22,22 @@
 Actions: `INGEST`, `QUERY`, `LINT`, `ARCHIVE`, `INIT`
 
 ---
+
+## [2026-05-09] scholar-skill | L3 精读 Driving with Style 论文 (arXiv:1905.00229)
+
+- **变更**: 新增 [[sources/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]]（L3 精读笔记，~13KB）
+- **升级**: 更新 [[GeneralPurposePlanner]]（补充完整技术架构: GPU 并行搜索算法、路径积分 IRL 公式、经验回放机制、投影度量三重作用、12 维特征设计、实验对比表格）
+- **升级**: 更新 [[InverseReinforcementLearning]]（补充 L3 笔记链接、规划器内嵌 IRL 核心规则）
+- **升级**: 更新 [[摘要-driving-with-style-irl-general-purpose-planning]]（补充 L3 笔记链接）
+- **升级**: 更新 [[SaschaRosbach]]（补充 L3 笔记链接）
+- **升级**: 更新 [[VinitJames]]（补充 L3 笔记链接）
+- **升级**: 更新 [[SimonGrossjohann]]（补充 L3 笔记链接）
+- **升级**: 更新 [[SilviuHomoceanu]]（补充 L3 笔记链接）
+- **升级**: 更新 [[StefanRoth]]（补充 L3 笔记链接）
+- **升级**: 更新 [[index.md]]（新增 L3 笔记索引）
+- **记忆抽取**: 9 条（5 Semantic + 2 Episodic + 2 Procedural）
+- **冲突**: 无
+- **备注**: 优先级 P1，L3 精读标准，arXiv PDF 通过 requests 下载后 PyPDF2 提取文本，8 页
 
 ## [2026-05-09] scholar-skill | L3 精读 SMIRL 论文 (arXiv:2006.13704)
 
