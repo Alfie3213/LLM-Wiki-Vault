@@ -42,7 +42,9 @@ last_updated: 2026-05-07
 
 ## 关联连接
 
+- [[IRLDAL]] — 结合扩散模型与 IRL 的自动驾驶安全自适应轨迹规划框架
 - [[RC_IRL]] — 针对自动驾驶场景优化的 IRL 变体，解决传统 IRL 计算昂贵和安全性问题
 - [[2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]] — 将 IRL 应用于 Apollo 自动驾驶平台运动规划器调参的论文（L3 精读笔记）
 - [[摘要-auto-tuning-framework-autonomous-vehicles]] — 论文核心摘要
+- [[摘要-irl-dal]] — IRL-DAL 论文核心摘要
 - [[CTDE]] — 集中训练分散执行，多智能体学习中的条件化思想

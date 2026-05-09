@@ -11,6 +11,12 @@ Actions: `INGEST`, `QUERY`, `LINT`, `ARCHIVE`, `INIT`
 
 ---
 
+## [2026-05-09] ingest | 编译 arXiv:2601.23266 (IRL-DAL)
+
+- **变更**: 新增 [[摘要-irl-dal]]、[[IRLDAL]]、[[EnergyGuidedDiffusion]]、[[DiffusionBasedPlanning]]、[[LearnableAdaptiveMask]]、[[SeyedAhmadHosseiniMiangoleh]]、[[AminJalalAghdasian]]、[[FarzanehAbdollahi]]; 更新 [[InverseReinforcementLearning]]、[[index.md]]
+- **冲突**: 无
+- **备注**: arXiv URL 摄入，无本地文件需归档，基于能量引导扩散模型的 IRL 安全自适应轨迹规划
+
 ## [2026-05-09] scholar-skill | L3 精读 DIPP 论文 (arXiv:2207.10422v2)
 
 - **变更**: 新增 [[sources/2022-Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving]]（L3 精读笔记，~15KB）

@@ -25,6 +25,15 @@
 论核心定理，给出最优控制的一阶必要条件
 - [[InverseOptimalControl]] — 从专家示范中恢复
 最优控制代价函数的问题
+- [[IRLDAL]] — 结合扩散模型与 IRL 的自动驾驶
+安全自适应轨迹规划框架，通过能量引导扩散模型
+实现路径级安全保证
+- [[EnergyGuidedDiffusion]] — 将能量函数引入扩
+散模型采样过程的约束生成技术
+- [[DiffusionBasedPlanning]] — 利用扩散生成模型
+进行轨迹或路径规划的范式
+- [[LearnableAdaptiveMask]] — 根据车速和周围危
+险动态调整视觉注意力的自适应感知机制
 - [[ClosedLoopIRL]] — 使用闭环损失函数捕捉专家
 示范闭环特性的逆强化学习框架
 
@@ -46,6 +55,11 @@ ased IRL 框架论文第一作者
 络系统领域著名学者
 - [[LihuaXie]] — NTU 教授，IEEE Fellow，控制理
 论与传感器网络领域学者
+- [[SeyedAhmadHosseiniMiangoleh]] — IRL-DAL
+论文第一作者，研究逆强化学习与扩散模型在自动
+驾驶中的应用
+- [[AminJalalAghdasian]] — IRL-DAL 共同作者
+- [[FarzanehAbdollahi]] — IRL-DAL 共同作者
 - [[XinhangXu]] — 机器人学与控制理论研究学者
 
 ## 🔍 Sources (来源层)
@@ -72,6 +86,11 @@ earning]] — A Differential Dynamic Programmin
 g Framework for Inverse Reinforcement Learnin
 g: 基于 DDP 的 IRL 框架，提出闭环 IRL 与逆最
 优控制理论联系
+- [[摘要-irl-dal]] — IRL-DAL: Safe and Adapti
+ve Trajectory Planning for Autonomous Driving 
+via Energy-Guided Diffusion Models: 基于能量
+引导扩散模型的 IRL 安全自适应轨迹规划框架 (a
+rXiv:2601.23266)
 - [[摘要-coohoi]] — CooHOI: Learning Cooperati
 ve Human-Object Interaction with Manipulated O
 bject Dynamics (NeurIPS 2024 Spotlight)
