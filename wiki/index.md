@@ -55,6 +55,11 @@ ction-and-planning]] — Differentiable Integr
 ated Motion Prediction and Planning: 可微分
 集成预测与规划框架，使代价函数可从数据中自动
 学习 (arXiv:2207.10422v2)
+- [[2022-Huang-DIPP]] — Differentiable Inte
+grated Motion Prediction and Planning: 可微分
+集成预测与规划框架，Transformer 预测 + Gauss
+-Newton 可微分优化器 + 可学习代价函数（L3 
+精读笔记）
 - [[2018-Fan-Auto-tuning-Framework-Autonomous-
 Vehicles]] — An Auto-tuning Framework for Auto
 nomous Vehicles: 基于 Apollo 平台和 RC-IRL 算

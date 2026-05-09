@@ -11,6 +11,19 @@ Actions: `INGEST`, `QUERY`, `LINT`, `ARCHIVE`, `INIT`
 
 ---
 
+## [2026-05-09] scholar-skill | L3 精读 DIPP 论文 (arXiv:2207.10422v2)
+
+- **变更**: 新增 [[2022-Huang-DIPP]]（L3 精读笔记，~15KB）
+- **升级**: 更新 [[DIPP]]（补充完整技术架构: LSTM 编码器、Transformer 交互、Gauss-Newton 优化器、4 项损失函数、消融实验结论）
+- **升级**: 更新 [[DifferentiableMotionPlanning]]（补充 Gauss-Newton 实现细节: 自行车模型、Theseus 库、Frenet 安全距离）
+- **升级**: 更新 [[IntegratedPredictionAndPlanning]]（补充三种范式对比、联合训练证据、开环/闭环性能差异）
+- **升级**: 更新 [[ZhiyuHuang]]（补充研究脉络: DIPP -> DTPP -> GameFormer）
+- **升级**: 更新 [[摘要-differentiable-integrated-motion-prediction-and-planning]]（补充 L3 笔记链接）
+- **升级**: 更新 [[index.md]]（新增 L3 笔记索引）
+- **记忆抽取**: 11 条（5 Semantic + 2 Episodic + 3 Procedural + 1 知识升级）
+- **冲突**: 无
+- **备注**: 优先级 P1，L3 精读标准，PDF 通过 PyPDF2 提取文本，15 页
+
 ## [2026-05-09] ingest | 编译 DIPP 论文 (arXiv:2207.10422v2)
 
 - **变更**: 新增 [[摘要-differentiable-integrated-motion-prediction-and-planning]]、[[DIPP]]、[[DifferentiableMotionPlanning]]、[[IntegratedPredictionAndPlanning]]、[[ZhiyuHuang]]、[[HaochenLiu]]、[[JingdaWu]]、[[ChenLv]]; 更新 [[index.md]]
