@@ -37,6 +37,7 @@ last_updated: 2026-05-09
 - **Opt-IRL**：Kuderer 等通过求解优化问题生成最优轨迹来近似期望特征计数，计算开销随规划时域急剧增长
 - **SMIRL**：Wu & Sun 等提出基于采样的最大熵 IRL，通过高效轨迹采样器和特征空间重分布，直接在连续域中学习可解释奖励函数，同时兼容非最优示范的不确定性
 - **路径积分 MaxEnt IRL（Rosbach & Roth 等）**：将最大熵 IRL 与通用型规划器集成，利用规划器图表示近似配分函数，在大众原型车上验证学习奖励超越专家手动调参
+- **TreeIRL（Tomov & Lee 等）**：将 MCTS 与深度 IRL 结合，利用 MCTS 生成安全候选轨迹，IRL 评分器选择最类人的轨迹，在 Motional 自动驾驶车辆上实现真实城市道路部署
 
 ### 自动驾驶中的应用
 在自动驾驶运动规划中，IRL 被用于从人类专家驾驶数据中学习奖励/代价函数，以自动调参运动规划器，替代传统耗时的人工调参方式。
@@ -60,5 +61,7 @@ last_updated: 2026-05-09
 - [[2020-Efficient-Sampling-Based-Maximum-Entropy-IRL]] — SMIRL 论文 L3 精读笔记（~12KB，含完整方法推导、实验分析、批判性反思）
 - [[摘要-driving-with-style-irl-general-purpose-planning]] — Driving with Style: 将 MaxEnt IRL 与通用型规划器集成，在真实车辆上实现奖励自动调参 (arXiv:1905.00229)
 - [[2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — Driving with Style 论文 L3 精读笔记（~13KB，含规划器算法推导、路径积分 IRL 公式、投影度量分析、实验评估）
+- [[TreeIRL]] — 将 MCTS 与深度 IRL 结合的自动驾驶规划方法
+- [[摘要-treeirl-safe-urban-driving]] — TreeIRL 论文来源摘要
 - [[GeneralPurposePlanner]] — 通用型规划器范式
 - [[CTDE]] — 集中训练分散执行，多智能体学习中的条件化思想

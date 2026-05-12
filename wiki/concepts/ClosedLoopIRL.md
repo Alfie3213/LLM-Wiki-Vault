@@ -88,7 +88,7 @@ $$
 
 ## 关联连接
 
-- [[2024-Cao-DDP-Framework-IRL]] — 提出闭环 IRL 框架和 DDP 梯度求解器的论文（L3 精读笔记）
+- [[../sources/2024-A Differential Dynamic Programming Framework for Inverse Reinforcement Learning]] — 提出闭环 IRL 框架和 DDP 梯度求解器的论文（L3 精读笔记）
 - [[摘要-ddp-framework-inverse-reinforcement-learning]] — 上述论文的核心摘要
 - [[DifferentialDynamicProgramming]] — 内层轨迹优化和梯度计算的核心方法
 - [[InverseOptimalControl]] — 闭环 IRL 与约束 IOC 的理论联系

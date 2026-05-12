@@ -1,3 +1,21 @@
+## [2026-05-12] ingest | 编译 Vehicles 2026, 8, 94 (个性化自动驾驶决策系统)
+
+- **变更**: 新增 [[摘要-trajectory-data-driven-personalized-autonomous-driving-decision-system]]、[[PersonalizedAutonomousDriving]]、[[DuelingDQN]]、[[WenpengSun]]、[[YuZhang]]、[[NengchaoLyu]]; 更新 [[index.md]]
+- **冲突**: 无
+- **备注**: PDF 通过 PyPDF2 提取文本，24 页，武汉理工大学 + 河北高速集团，基于无人机航拍轨迹数据，融合 MaxEnt IRL 与 DuDQN，在高保真驾驶模拟器中闭环验证
+
+## [2026-05-12] ingest | 编译 arXiv:2206.12348 (MPC-based Imitation Learning)
+
+- **变更**: 新增 [[摘要-mpc-based-imitation-learning]]、[[MPCbasedImitationLearning]]、[[BehavioralCloningFromObservations]]、[[FlaviaSofiaAcerbo]]、[[JanSwevers]]、[[TinneTuytelaars]]、[[TongDuySon]]; 更新 [[index.md]]
+- **冲突**: 无
+- **备注**: arXiv API 摄入，无本地文件需归档，SL4AD workshop @ ICML 2022，将 MPC 作为可微分控制层嵌入模仿学习
+
+## [2026-05-12] ingest | 编译 arXiv:2509.13579 (TreeIRL)
+
+- **变更**: 新增 [[摘要-treeirl-safe-urban-driving]]、[[TreeIRL]]、[[MonteCarloTreeSearch]]、[[DriveIRL]]、[[SimToRealGap]]、[[MomchilSTomov]]、[[SangUkLee]]、[[HansfordHendargo]]、[[BoazFloor]]、[[YunqingHu]]、[[Motional]]; 更新 [[InverseReinforcementLearning]]、[[MaximumEntropyIRL]]、[[index.md]]
+- **冲突**: 无
+- **备注**: PDF 通过 PyPDF2 提取文本，18 页，Motional 团队提出，将 MCTS 与深度 IRL 结合，nuPlan + 真实城市道路验证
+
 ## [2026-05-09] ingest | 编译 arXiv:1905.00229 (Driving with Style)
 
 - **变更**: 新增 [[摘要-driving-with-style-irl-general-purpose-planning]]、[[GeneralPurposePlanner]]、[[SaschaRosbach]]、[[VinitJames]]、[[SimonGrossjohann]]、[[SilviuHomoceanu]]、[[StefanRoth]]; 更新 [[InverseReinforcementLearning]]、[[MaximumEntropyIRL]]、[[index.md]]
@@ -131,7 +149,7 @@ Actions: `INGEST`, `QUERY`, `LINT`, `ARCHIVE`, `INIT`
 
 ## [2026-05-07] scholar-skill | L3 精读 arXiv:2407.19902 (DDP-based IRL)
 
-- **变更**: 新增 [[2024-Cao-DDP-Framework-IRL]]（L3 精读笔记，~14KB）
+- **变更**: 新增 [[sources/2024-A Differential Dynamic Programming Framework for Inverse Reinforcement Learning]]（L3 精读笔记，~14KB）
 - **升级**: 更新 [[ClosedLoopIRL]]（补充闭环损失函数、梯度推导、LM 更新、可恢复性条件、优劣势分析）
 - **升级**: 更新 [[InverseReinforcementLearning]]（补充 DDP-based IRL 链接）
 - **升级**: 更新 [[DifferentialDynamicProgramming]]（补充逆问题梯度计算、BarrierDDP、与 PDP 等价性）
