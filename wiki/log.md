@@ -131,7 +131,7 @@ Actions: `INGEST`, `QUERY`, `LINT`, `ARCHIVE`, `INIT`
 
 ## [2026-05-07] scholar-skill | L3 精读 arXiv:2407.19902 (DDP-based IRL)
 
-- **变更**: 新增 [[2024-Cao-DDP-Framework-IRL]]（L3 精读笔记，~14KB）
+- **变更**: 新增 [[sources/2024-A Differential Dynamic Programming Framework for Inverse Reinforcement Learning]]（L3 精读笔记，~14KB）
 - **升级**: 更新 [[ClosedLoopIRL]]（补充闭环损失函数、梯度推导、LM 更新、可恢复性条件、优劣势分析）
 - **升级**: 更新 [[InverseReinforcementLearning]]（补充 DDP-based IRL 链接）
 - **升级**: 更新 [[DifferentialDynamicProgramming]]（补充逆问题梯度计算、BarrierDDP、与 PDP 等价性）
