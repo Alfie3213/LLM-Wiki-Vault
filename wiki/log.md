@@ -1,3 +1,7 @@
+## [2026-05-12] sync | 配置 wiki/sources/ 按 last_updated 属性降序排序
+- **变更**: 新增 [[wiki/sources/sortspec.md]]（Custom File Explorer Sorting 配置）
+- **备注**: 按笔记 frontmatter `last_updated` 字段从新到旧排列，使用 `> a-z by-metadata: last_updated`
+
 ## [2026-05-12] ingest | 编译 Vehicles 2026, 8, 94 (个性化自动驾驶决策系统)
 
 - **变更**: 新增 [[摘要-trajectory-data-driven-personalized-autonomous-driving-decision-system]]、[[PersonalizedAutonomousDriving]]、[[DuelingDQN]]、[[WenpengSun]]、[[YuZhang]]、[[NengchaoLyu]]; 更新 [[index.md]]

@@ -66,6 +66,14 @@
   },
   "savedSessions": [
     {
+      "sessionId": "ses_1e39047b2ffebALT7b02syRBZR",
+      "agentId": "opencode",
+      "cwd": "E:\\CHH3213_KING\\LLM-Wiki-Vault",
+      "title": "如何实现下面这个需求通常需要安装第三方社区插件（如 Custom File Explorer Sor...",
+      "createdAt": "2026-05-12T14:43:15.843Z",
+      "updatedAt": "2026-05-12T14:43:15.843Z"
+    },
+    {
       "sessionId": "ses_1fd36b0d2ffeJvUpIMZvQz3ACS",
       "agentId": "opencode",
       "cwd": "E:\\CHH3213_KING\\LLM-Wiki-Vault",
@@ -75,7 +83,7 @@
     }
   ],
   "lastUsedModels": {
-    "opencode": "opencode/big-pickle"
+    "opencode": "opencode/deepseek-v4-flash-free"
   },
   "lastUsedModes": {},
   "enableFloatingChat": false,
