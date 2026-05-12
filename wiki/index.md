@@ -24,6 +24,10 @@
 - [[SMIRL]] — 基于采样的最大熵逆强化学习算法，在连续域中高效学习可解释的人类驾驶奖励函数
 - [[MaximumEntropyIRL]] — 通过最大熵原理解决奖励函数歧义性的逆强化学习基础方法
 - [[GeneralPurposePlanner]] — 将行为规划与局部运动规划整合到单一框架的自动驾驶规划范式
+- [[TreeIRL]] — 将蒙特卡洛树搜索与逆强化学习结合的自动驾驶规划方法，MCTS 生成安全候选轨迹，IRL 选择最类人轨迹
+- [[MonteCarloTreeSearch]] — 基于采样的决策时规划算法，通过反复模拟估计状态-动作值
+- [[DriveIRL]] — Motional 提出的模块化深度神经网络规划架构，TreeIRL 的前身方法
+- [[SimToRealGap]] — 模拟器表现与真实世界表现之间的差异，自动驾驶规划评估的关键问题
 
 ## 👥 Entities (实体层)
 
@@ -53,6 +57,12 @@
 - [[SimonGrossjohann]] — 大众集团研究者
 - [[SilviuHomoceanu]] — 大众集团研究者
 - [[StefanRoth]] — 达姆施塔特工业大学教授，Visual Inference Lab 负责人
+- [[MomchilSTomov]] — Motional 研究者，TreeIRL 论文第一作者
+- [[SangUkLee]] — Motional 研究者
+- [[HansfordHendargo]] — Motional 研究者
+- [[BoazFloor]] — Motional 研究者
+- [[YunqingHu]] — Motional 研究者
+- [[Motional]] — 现代汽车集团与 Aptiv 合资的 L4 级自动驾驶公司
 
 ## 🔍 Sources (来源层)
 
@@ -75,6 +85,7 @@ rXiv:2601.23266)
 - [[sources/2020-Efficient-Sampling-Based-Maximum-Entropy-IRL]] — SMIRL 论文 L3 精读笔记（~12KB，含完整方法推导、实验分析、批判性反思、记忆抽取）
 - [[摘要-driving-with-style-irl-general-purpose-planning]] — Driving with Style: 将 MaxEnt IRL 与通用型规划器集成，在真实车辆上实现奖励自动调参，学习效果超越专家手动调参 (arXiv:1905.00229)
 - [[sources/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — Driving with Style 论文 L3 精读笔记（~13KB，含规划器算法推导、路径积分 IRL 公式、投影度量分析、实验评估、记忆抽取）
+- [[摘要-treeirl-safe-urban-driving]] — TreeIRL: 将 MCTS 与 IRL 结合实现安全城市驾驶，在模拟和真实世界中均达到 SOTA 性能 (arXiv:2509.13579)
 
 ## 💎 Syntheses (综合层)
 
@@ -84,4 +95,4 @@ rXiv:2601.23266)
 
 > ℹ️ This index is automatically updated by the
   and  skills.
-> Last updated: 2026-05-09
+> Last updated: 2026-05-12

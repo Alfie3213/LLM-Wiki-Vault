@@ -1,3 +1,9 @@
+## [2026-05-12] ingest | 编译 arXiv:2509.13579 (TreeIRL)
+
+- **变更**: 新增 [[摘要-treeirl-safe-urban-driving]]、[[TreeIRL]]、[[MonteCarloTreeSearch]]、[[DriveIRL]]、[[SimToRealGap]]、[[MomchilSTomov]]、[[SangUkLee]]、[[HansfordHendargo]]、[[BoazFloor]]、[[YunqingHu]]、[[Motional]]; 更新 [[InverseReinforcementLearning]]、[[MaximumEntropyIRL]]、[[index.md]]
+- **冲突**: 无
+- **备注**: PDF 通过 PyPDF2 提取文本，18 页，Motional 团队提出，将 MCTS 与深度 IRL 结合，nuPlan + 真实城市道路验证
+
 ## [2026-05-09] ingest | 编译 arXiv:1905.00229 (Driving with Style)
 
 - **变更**: 新增 [[摘要-driving-with-style-irl-general-purpose-planning]]、[[GeneralPurposePlanner]]、[[SaschaRosbach]]、[[VinitJames]]、[[SimonGrossjohann]]、[[SilviuHomoceanu]]、[[StefanRoth]]; 更新 [[InverseReinforcementLearning]]、[[MaximumEntropyIRL]]、[[index.md]]
