@@ -399,7 +399,155 @@
         }
       ],
       "timestamp": "2026-05-12T14:48:08.861Z"
+    },
+    {
+      "id": "002141f4-6133-4fed-a47e-32260255188b",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "将刚才的配置Custom File Explorer Sorting 插件的步骤整理成一篇博客"
+        }
+      ],
+      "timestamp": "2026-05-12T14:54:10.394Z"
+    },
+    {
+      "id": "0e361b65-16d9-4f4c-a34f-3d36b0ff5f53",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": "The user wants me to turn the configuration steps for the Custom File Explorer Sorting plugin into a blog post. This should be a standalone article. Let me think about what should be in it:\n\n1. The problem statement - sorting Obsidian notes\n2. Two approaches (Custom File Explorer Sorting vs Bases)\n3. Step-by-step guide for Custom File Explorer Sorting\n4. The specific sortspec.md syntax\n5. How to sort by frontmatter properties (the key technique used)\n\nI need to decide where to put this. Since it's a blog post and not wiki content, the user probably wants it in the wiki as a source/concept entry, or maybe they want me to create it in a specific location. Let me ask... actually, they said \"整理成一篇博客\" which means \"compile into a blog post\". Since there's no blog directory in the vault, I should probably put it in the wiki as a concept or synthesis page, or create it wherever feels appropriate.\n\nWait, actually this is knowledge about Obsidian tooling, which is part of the vault's meta-knowledge. I could create it as a concept or source. But since it's more of a tutorial/guide, maybe it should be a synthesis page, or maybe a new category.\n\nLet me just create it as a concept page in the wiki. The format should be a proper markdown blog post with frontmatter.\n\nActually, looking at the wiki structure again:\n- concepts/ - for concepts, frameworks, methodologies\n- entities/ - for people, companies, tools, products\n- sources/ - for summaries from raw/\n- syntheses/ - for complex questions\n\nSince this is about Obsidian tooling (a tool), it could go in entities/ or concepts/. I think concepts/ makes sense since it's about a methodology/workflow for sorting notes.\n\nLet me write a comprehensive blog post about it. I should also link it in the index.\n\nActually, the user said \"整理成一篇博客\" - they want this as a blog post. Let me create it in the wiki as a concept, with a proper blog-like structure. I'll call it something like `Obsidian_Custom_Sort_Guide.md`.\n\nLet me write the"
+        }
+      ],
+      "timestamp": "2026-05-12T14:54:13.461Z"
+    },
+    {
+      "id": "93a26546-b384-424c-9ab5-b06c3fa31344",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "将刚才的配置Custom File Explorer Sorting 插件的步骤整理成一篇博客， 放在E:\\CHH3213_KING\\hexo_blog\\source\\_posts 目录下"
+        }
+      ],
+      "timestamp": "2026-05-12T14:55:09.305Z"
+    },
+    {
+      "id": "382b2de2-954e-490f-b414-8d9cd77d5a7d",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": "The user wants me to create a blog post about configuring the Custom File Explorer Sorting plugin. I need to write a markdown blog post and save it to `E:\\CHH3213_KING\\hexo_blog\\source\\_posts`.\n\nLet me first check if that directory exists, and also look at any existing blog posts in that directory to understand the format/style used."
+        }
+      ],
+      "timestamp": "2026-05-12T14:55:13.574Z"
+    },
+    {
+      "id": "ece73224-575e-48d9-8bc0-aba932110d9c",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_00_emhS1AtdXdjnxLFOT7Is7760",
+          "title": "Check hexo blog posts dir exists",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "locations": [],
+          "rawInput": {
+            "command": "Test-Path -LiteralPath \"E:\\CHH3213_KING\\hexo_blog\\source\\_posts\"",
+            "description": "Check hexo blog posts dir exists"
+          }
+        }
+      ],
+      "timestamp": "2026-05-12T14:55:15.138Z"
+    },
+    {
+      "id": "f19784d0-21e7-42b3-b03d-c7d7063f432e",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_01_fwgfSS7mwGCLuN6iD5yK1493",
+          "title": "",
+          "status": "completed",
+          "kind": "search",
+          "content": [],
+          "locations": [],
+          "rawInput": {
+            "pattern": "E:\\CHH3213_KING\\hexo_blog\\source\\_posts\\*.md"
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": "The directory exists but there are no existing blog posts. This is a fresh hexo blog setup. I'll write a standard hexo blog post with frontmatter (title, date, tags, categories) and then write the content about setting up Custom File Explorer Sorting plugin.\n\nLet me create a well-structured blog post about the plugin setup."
+        }
+      ],
+      "timestamp": "2026-05-12T14:55:15.657Z"
+    },
+    {
+      "id": "14f30d4e-bb4a-4651-acf4-2ede1d54863b",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "call_00_tXLyocCoVp79doYJCNY92682",
+          "title": "..\\hexo_blog\\source\\_posts\\Obsidian-Custom-File-Explorer-Sorting-配置指南.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "E:\\CHH3213_KING\\hexo_blog\\source\\_posts\\Obsidian-Custom-File-Explorer-Sorting-配置指南.md",
+              "newText": "---\ntitle: Obsidian Custom File Explorer Sorting 插件配置指南\ndate: 2026-05-12\ntags: [Obsidian, 插件, 效率, 笔记管理]\ncategories: [工具配置]\n---\n\n## 背景\n\nObsidian 原生文件浏览器只支持按文件名排序，但实际使用中我们往往需要更灵活的排序方式——比如按**最近更新时间**、按**创建时间**、按自定义优先级等。\n\n解决方案有两个：\n\n1. **第三方插件路线**：Custom File Explorer Sorting（基于 `sortspec.md` 配置文件）\n2. **原生插件路线**：Obsidian Bases（数据库视图，不改变文件浏览器本身）\n\n本文聚焦方案一。\n\n<!-- more -->\n\n## 安装插件\n\n1. 打开 Obsidian → 设置 → 社区插件\n2. 搜索 **Custom File Explorer Sorting**（作者：SebastianMC）\n3. 点击安装并启用\n\n## 核心原理\n\n插件通过在文件夹内放置一个名为 **`sortspec.md`** 的笔记，在其 YAML frontmatter 中编写排序规则来实现自定义排序。\n\n所有排序配置都存放在 Obsidian 笔记的 frontmatter 中，天然版本控制友好。\n\n## 基础语法\n\n`sortspec.md` 的 YAML 结构如下：\n\n```yaml\n---\nsorting-spec: |\n    <排序指令>\n---\n```\n\n### 排序方向\n\n| 符号 | 含义 |\n|------|------|\n| `<` 或 `order-asc:` | 升序（A→Z, 旧→新） |\n| `>` 或 `order-desc:` | 降序（Z→A, 新→旧） |\n\n### 排序依据\n\n| 指令 | 效果 |\n|------|------|\n| `a-z` | 按文件名排序 |\n| `modified` | 按文件修改时间排序 |\n| `ctime` | 按文件创建时间排序 |\n| `by-metadata: <字段名>` | 按 frontmatter 属性排序 |\n\n## 实操：让 wiki/sources 按 last_updated 从新到旧排列\n\n### 场景\n\n我的 LLM-Wiki 知识库中，`wiki/sources/` 目录存放了大量论文摘要笔记。每篇笔记的 frontmatter 都有 `last_updated` 字段（格式如 `2026-05-07`）。\n\n需求：打开 sources 文件夹时，最新更新的笔记排在最前面。\n\n### 步骤\n\n1. 在 `wiki/sources/` 目录下创建 `sortspec.md` 文件\n\n2. 写入以下内容：\n\n```yaml\n---\nsorting-spec: |\n    > a-z by-metadata: last_updated\n---\n```\n\n3. 保存文件\n\n4. 点击 Obsidian 左侧 ribbon 上的插件图标（🎛️）应用排序\n\n### 效果\n\n现在 `wiki/sources/` 中的笔记按 `last_updated` 字段降序排列，最近更新的笔记自动置顶。\n\n## 更多配置示例\n\n### 混合排序：文件按修改时间，文件夹按名称\n\n```yaml\n---\nsorting-spec: |\n    target-folder: /\n    /:files\n     < modified\n    /folders\n     > a-z\n---\n```\n\n### 手动置顶特定笔记\n\n```yaml\n---\nsorting-spec: |\n    Inbox\n    Todo\n    %\n    sortspec\n    < a-z\n---\n```\n\n`%` 表示分区线，之前的条目被提到最前面，之后的按后续规则排序。\n\n### 全局递归排序（作用于所有子文件夹）\n\n```yaml\n---\nsorting-spec: |\n    target-folder: /*\n    < a-z\n---\n```\n\n## 注意事项\n\n- **格式敏感**：YAML 缩进非常重要，多一个空格或少一个空格都会导致规则不生效\n- **手动刷新**：每次修改 `sortspec.md` 后需要点击 ribbon 图标重新应用\n- **前端属性格式**：`by-metadata` 要求 frontmatter 中的日期为 ISO 格式（如 `2026-05-12`），非标准格式可能无法正确排序\n- **文件名固定**：配置文件的名称必须是 `sortspec.md`，插件会扫描全库中所有叫这个名字的笔记\n\n## 对比方案：Obsidian Bases\n\n如果你不想折腾代码配置，Obsidian 原生的 **Bases** 插件（核心插件）提供了数据库视图，支持：\n\n- 表格/卡片/画廊多种展示模式\n- 按任意属性筛选和排序\n- 不改变文件浏览器本身\n\n适合需要多维度查看笔记、但不要求改变文件夹排序的场景。\n\n## 总结\n\nCustom File Explorer Sorting 插件通过 `sortspec.md` 配置文件的方式，将排序逻辑与笔记内容解耦，配置灵活且易于版本管理。对于需要精细控制文件浏览器排序的重度 Obsidian 用户来说，是一个值得安装的工具。\n",
+              "oldText": ""
+            }
+          ],
+          "locations": [
+            {
+              "path": "E:\\CHH3213_KING\\hexo_blog\\source\\_posts\\Obsidian-Custom-File-Explorer-Sorting-配置指南.md"
+            }
+          ],
+          "rawInput": {
+            "filePath": "E:\\CHH3213_KING\\hexo_blog\\source\\_posts\\Obsidian-Custom-File-Explorer-Sorting-配置指南.md",
+            "content": "---\ntitle: Obsidian Custom File Explorer Sorting 插件配置指南\ndate: 2026-05-12\ntags: [Obsidian, 插件, 效率, 笔记管理]\ncategories: [工具配置]\n---\n\n## 背景\n\nObsidian 原生文件浏览器只支持按文件名排序，但实际使用中我们往往需要更灵活的排序方式——比如按**最近更新时间**、按**创建时间**、按自定义优先级等。\n\n解决方案有两个：\n\n1. **第三方插件路线**：Custom File Explorer Sorting（基于 `sortspec.md` 配置文件）\n2. **原生插件路线**：Obsidian Bases（数据库视图，不改变文件浏览器本身）\n\n本文聚焦方案一。\n\n<!-- more -->\n\n## 安装插件\n\n1. 打开 Obsidian → 设置 → 社区插件\n2. 搜索 **Custom File Explorer Sorting**（作者：SebastianMC）\n3. 点击安装并启用\n\n## 核心原理\n\n插件通过在文件夹内放置一个名为 **`sortspec.md`** 的笔记，在其 YAML frontmatter 中编写排序规则来实现自定义排序。\n\n所有排序配置都存放在 Obsidian 笔记的 frontmatter 中，天然版本控制友好。\n\n## 基础语法\n\n`sortspec.md` 的 YAML 结构如下：\n\n```yaml\n---\nsorting-spec: |\n    <排序指令>\n---\n```\n\n### 排序方向\n\n| 符号 | 含义 |\n|------|------|\n| `<` 或 `order-asc:` | 升序（A→Z, 旧→新） |\n| `>` 或 `order-desc:` | 降序（Z→A, 新→旧） |\n\n### 排序依据\n\n| 指令 | 效果 |\n|------|------|\n| `a-z` | 按文件名排序 |\n| `modified` | 按文件修改时间排序 |\n| `ctime` | 按文件创建时间排序 |\n| `by-metadata: <字段名>` | 按 frontmatter 属性排序 |\n\n## 实操：让 wiki/sources 按 last_updated 从新到旧排列\n\n### 场景\n\n我的 LLM-Wiki 知识库中，`wiki/sources/` 目录存放了大量论文摘要笔记。每篇笔记的 frontmatter 都有 `last_updated` 字段（格式如 `2026-05-07`）。\n\n需求：打开 sources 文件夹时，最新更新的笔记排在最前面。\n\n### 步骤\n\n1. 在 `wiki/sources/` 目录下创建 `sortspec.md` 文件\n\n2. 写入以下内容：\n\n```yaml\n---\nsorting-spec: |\n    > a-z by-metadata: last_updated\n---\n```\n\n3. 保存文件\n\n4. 点击 Obsidian 左侧 ribbon 上的插件图标（🎛️）应用排序\n\n### 效果\n\n现在 `wiki/sources/` 中的笔记按 `last_updated` 字段降序排列，最近更新的笔记自动置顶。\n\n## 更多配置示例\n\n### 混合排序：文件按修改时间，文件夹按名称\n\n```yaml\n---\nsorting-spec: |\n    target-folder: /\n    /:files\n     < modified\n    /folders\n     > a-z\n---\n```\n\n### 手动置顶特定笔记\n\n```yaml\n---\nsorting-spec: |\n    Inbox\n    Todo\n    %\n    sortspec\n    < a-z\n---\n```\n\n`%` 表示分区线，之前的条目被提到最前面，之后的按后续规则排序。\n\n### 全局递归排序（作用于所有子文件夹）\n\n```yaml\n---\nsorting-spec: |\n    target-folder: /*\n    < a-z\n---\n```\n\n## 注意事项\n\n- **格式敏感**：YAML 缩进非常重要，多一个空格或少一个空格都会导致规则不生效\n- **手动刷新**：每次修改 `sortspec.md` 后需要点击 ribbon 图标重新应用\n- **前端属性格式**：`by-metadata` 要求 frontmatter 中的日期为 ISO 格式（如 `2026-05-12`），非标准格式可能无法正确排序\n- **文件名固定**：配置文件的名称必须是 `sortspec.md`，插件会扫描全库中所有叫这个名字的笔记\n\n## 对比方案：Obsidian Bases\n\n如果你不想折腾代码配置，Obsidian 原生的 **Bases** 插件（核心插件）提供了数据库视图，支持：\n\n- 表格/卡片/画廊多种展示模式\n- 按任意属性筛选和排序\n- 不改变文件浏览器本身\n\n适合需要多维度查看笔记、但不要求改变文件夹排序的场景。\n\n## 总结\n\nCustom File Explorer Sorting 插件通过 `sortspec.md` 配置文件的方式，将排序逻辑与笔记内容解耦，配置灵活且易于版本管理。对于需要精细控制文件浏览器排序的重度 Obsidian 用户来说，是一个值得安装的工具。\n"
+          },
+          "permissionRequest": {
+            "requestId": "dd38a27e-e9e0-4964-8f4d-1fa075679c73",
+            "options": [
+              {
+                "optionId": "once",
+                "name": "Allow once",
+                "kind": "allow_once"
+              },
+              {
+                "optionId": "always",
+                "name": "Always allow",
+                "kind": "allow_always"
+              },
+              {
+                "optionId": "reject",
+                "name": "Reject",
+                "kind": "reject_once"
+              }
+            ],
+            "selectedOptionId": "always",
+            "isActive": false
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": "Done. The blog post has been created. Let me give the user a summary."
+        },
+        {
+          "type": "text",
+          "text": "已创建 `E:\\CHH3213_KING\\hexo_blog\\source\\_posts\\Obsidian-Custom-File-Explorer-Sorting-配置指南.md`，包含：\n\n- 插件安装与核心原理\n- 排序语法速查表\n- 你刚才配置的 `by-metadata: last_updated` 实操步骤\n- 更多配置示例（混合排序、手动置顶、全局递归）\n- 与 Obsidian Bases 的对比建议"
+        }
+      ],
+      "timestamp": "2026-05-12T14:55:21.771Z"
     }
   ],
-  "savedAt": "2026-05-12T14:48:16.842Z"
+  "savedAt": "2026-05-12T14:55:51.773Z"
 }
