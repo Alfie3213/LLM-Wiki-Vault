@@ -2,8 +2,8 @@
 title: "摘要-driving-with-style-irl-general-purpose-planning"
 type: source
 tags: [来源, 论文, 逆强化学习, 自动驾驶, 运动规划, 大众]
-sources: [https://arxiv.org/abs/1905.00229]
-last_updated: 2026-05-09
+sources: [raw/02-papers/1905.00229v2.pdf, https://arxiv.org/abs/1905.00229]
+last_updated: 2026-05-12
 ---
 
 ## 核心摘要
