@@ -1,3 +1,15 @@
+## [2026-05-12] ingest | 编译 Vehicles 2026, 8, 94 (个性化自动驾驶决策系统)
+
+- **变更**: 新增 [[摘要-trajectory-data-driven-personalized-autonomous-driving-decision-system]]、[[PersonalizedAutonomousDriving]]、[[DuelingDQN]]、[[WenpengSun]]、[[YuZhang]]、[[NengchaoLyu]]; 更新 [[index.md]]
+- **冲突**: 无
+- **备注**: PDF 通过 PyPDF2 提取文本，24 页，武汉理工大学 + 河北高速集团，基于无人机航拍轨迹数据，融合 MaxEnt IRL 与 DuDQN，在高保真驾驶模拟器中闭环验证
+
+## [2026-05-12] ingest | 编译 arXiv:2206.12348 (MPC-based Imitation Learning)
+
+- **变更**: 新增 [[摘要-mpc-based-imitation-learning]]、[[MPCbasedImitationLearning]]、[[BehavioralCloningFromObservations]]、[[FlaviaSofiaAcerbo]]、[[JanSwevers]]、[[TinneTuytelaars]]、[[TongDuySon]]; 更新 [[index.md]]
+- **冲突**: 无
+- **备注**: arXiv API 摄入，无本地文件需归档，SL4AD workshop @ ICML 2022，将 MPC 作为可微分控制层嵌入模仿学习
+
 ## [2026-05-12] ingest | 编译 arXiv:2509.13579 (TreeIRL)
 
 - **变更**: 新增 [[摘要-treeirl-safe-urban-driving]]、[[TreeIRL]]、[[MonteCarloTreeSearch]]、[[DriveIRL]]、[[SimToRealGap]]、[[MomchilSTomov]]、[[SangUkLee]]、[[HansfordHendargo]]、[[BoazFloor]]、[[YunqingHu]]、[[Motional]]; 更新 [[InverseReinforcementLearning]]、[[MaximumEntropyIRL]]、[[index.md]]
