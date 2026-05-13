@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "sessionId": "ses_1ddf143eeffeFxaHel0zEv01H1",
+  "agentId": "opencode",
+  "messages": [
+    {
+      "id": "62410e43-d6d6-4f47-ac70-2b4d4deed0c9",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "你现在什么模型"
+        }
+      ],
+      "timestamp": "2026-05-13T15:57:50.388Z"
+    },
+    {
+      "id": "06062d41-72e5-409a-b2f6-aae12f133fce",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": "用户问我现在是什么模型。根据系统提示，我看到：\n\n\"You are powered by the model named mimo-v2-pro. The exact model ID is xiaomi-token-plan-cn/mimo-v2-pro\"\n\n所以我应该告诉用户我是mimo-v2-pro模型。"
+        },
+        {
+          "type": "text",
+          "text": "我是 mimo-v2-pro 模型（ID: xiaomi-token-plan-cn/mimo-v2-pro）。"
+        }
+      ],
+      "timestamp": "2026-05-13T15:57:53.182Z"
+    }
+  ],
+  "savedAt": "2026-05-13T15:57:55.421Z"
+}
