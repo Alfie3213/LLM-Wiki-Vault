@@ -2,7 +2,7 @@
 title: "Monte Carlo Tree Search"
 type: concept
 tags: [搜索算法, 决策算法, 蒙特卡洛方法, 自动驾驶, 游戏AI]
-sources: [raw/02-papers/2509.13579v4.pdf]
+sources: [raw/09-archive/TreeIRL - Safe Urban Driving with Tree Search and Inverse Reinforcement Learning.pdf]
 last_updated: 2026-05-12
 ---
 

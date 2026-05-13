@@ -2,7 +2,7 @@
 title: "摘要-treeirl-safe-urban-driving"
 type: source
 tags: [来源, 论文, 逆强化学习, 蒙特卡洛树搜索, 自动驾驶, 运动规划, Motional]
-sources: [raw/02-papers/2509.13579v4.pdf]
+sources: [raw/09-archive/TreeIRL - Safe Urban Driving with Tree Search and Inverse Reinforcement Learning.pdf]
 last_updated: 2026-05-12
 ---
 

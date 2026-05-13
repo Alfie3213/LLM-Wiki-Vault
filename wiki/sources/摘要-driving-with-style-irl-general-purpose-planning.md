@@ -9,7 +9,7 @@ tags:
   - 运动规划
   - 大众
 sources:
-  - raw/02-papers/1905.00229v2.pdf
+  - raw/09-archive/Driving with Style - Inverse Reinforcement Learning in General-Purpose Planning for Automated Driving.pdf
   - https://arxiv.org/abs/1905.00229
 last_updated: 2026-05-12
 ---

@@ -2,7 +2,7 @@
 title: "Sim-to-Real Gap"
 type: concept
 tags: [自动驾驶, 模拟到真实, 强化学习, 仿真验证, 运动规划]
-sources: [raw/02-papers/2509.13579v4.pdf]
+sources: [raw/09-archive/TreeIRL - Safe Urban Driving with Tree Search and Inverse Reinforcement Learning.pdf]
 last_updated: 2026-05-12
 ---
 

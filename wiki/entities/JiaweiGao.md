@@ -2,8 +2,8 @@
 title: "Jiawei Gao"
 type: entity
 tags: [研究者, 机器人学, 强化学习]
-sources: [raw/02-papers/CooHOI.pdf]
-last_updated: 2026-05-06
+sources: [raw/09-archive/CooHOI - Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics.pdf]
+last_updated: 2026-05-12
 ---
 
 ## 定义

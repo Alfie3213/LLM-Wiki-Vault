@@ -2,7 +2,7 @@
 title: "Yu Zhang"
 type: entity
 tags: [研究者, 自动驾驶, 智能交通, 武汉理工大学]
-sources: [raw/02-papers/vehicles-08-00094-v2.pdf]
+sources: [raw/09-archive/A Trajectory Data-Driven Personalized Autonomous Driving Decision System for Driving Simulators.pdf]
 last_updated: 2026-05-12
 ---
 

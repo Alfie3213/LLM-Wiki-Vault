@@ -2,7 +2,7 @@
 title: "Dueling DQN"
 type: concept
 tags: [深度强化学习, 价值分解, Q学习, 自动驾驶]
-sources: [raw/02-papers/vehicles-08-00094-v2.pdf]
+sources: [raw/09-archive/A Trajectory Data-Driven Personalized Autonomous Driving Decision System for Driving Simulators.pdf]
 last_updated: 2026-05-12
 ---
 

@@ -2,8 +2,8 @@
 title: "IntegratedPredictionAndPlanning"
 type: concept
 tags: [自动驾驶, 运动规划, 轨迹预测, 模块化融合]
-sources: [raw/02-papers/2207.10422v2.pdf, 摘要-differentiable-integrated-motion-prediction-and-planning]
-last_updated: 2026-05-09
+sources: [raw/09-archive/Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving.pdf, 摘要-differentiable-integrated-motion-prediction-and-planning]
+last_updated: 2026-05-12
 ---
 
 ## 定义

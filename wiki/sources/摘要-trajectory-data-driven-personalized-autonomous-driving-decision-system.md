@@ -2,7 +2,7 @@
 title: "摘要-trajectory-data-driven-personalized-autonomous-driving-decision-system"
 type: source
 tags: [来源, 论文, 个性化自动驾驶, 无人机航拍, 逆强化学习, 驾驶模拟器, 驾驶风格]
-sources: [raw/02-papers/vehicles-08-00094-v2.pdf]
+sources: [raw/09-archive/A Trajectory Data-Driven Personalized Autonomous Driving Decision System for Driving Simulators.pdf]
 last_updated: 2026-05-12
 ---
 

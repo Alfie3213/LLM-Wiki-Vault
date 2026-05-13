@@ -2,8 +2,8 @@
 title: "Inverse Reinforcement Learning"
 type: concept
 tags: [强化学习, 模仿学习, 奖励学习, 逆强化学习]
-sources: [raw/02-papers/An Auto-tuning Framework for Autonomous Vehicles.pdf, https://arxiv.org/abs/2006.13704, https://arxiv.org/abs/1905.00229]
-last_updated: 2026-05-09
+sources: [raw/09-archive/An Auto-tuning Framework for Autonomous Vehicles.pdf, https://arxiv.org/abs/2006.13704, https://arxiv.org/abs/1905.00229]
+last_updated: 2026-05-12
 ---
 
 ## 定义

@@ -2,8 +2,8 @@
 title: "CTDE"
 type: concept
 tags: [多智能体强化学习, 机器学习, 分布式系统]
-sources: [raw/02-papers/CooHOI.pdf]
-last_updated: 2026-05-06
+sources: [raw/09-archive/CooHOI - Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics.pdf]
+last_updated: 2026-05-12
 ---
 
 ## 定义

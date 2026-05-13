@@ -2,8 +2,8 @@
 title: "摘要-coohoi"
 type: source
 tags: [来源, 论文, 机器人学, 人机交互, 多智能体]
-sources: [raw/02-papers/CooHOI.pdf]
-last_updated: 2026-05-06
+sources: [raw/09-archive/CooHOI - Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics.pdf]
+last_updated: 2026-05-12
 ---
 
 ## 核心摘要

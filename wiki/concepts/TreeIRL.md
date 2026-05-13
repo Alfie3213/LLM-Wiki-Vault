@@ -2,7 +2,7 @@
 title: "TreeIRL"
 type: concept
 tags: [自动驾驶, 运动规划, 蒙特卡洛树搜索, 逆强化学习, 混合方法]
-sources: [raw/02-papers/2509.13579v4.pdf]
+sources: [raw/09-archive/TreeIRL - Safe Urban Driving with Tree Search and Inverse Reinforcement Learning.pdf]
 last_updated: 2026-05-12
 ---
 

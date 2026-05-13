@@ -1,12 +1,13 @@
 ---
+title: "{{name}}"
 type: concept
-name: "{{name}}"
 aliases: []
 tags: [concept]
 domain: ""
 related_concepts: []
 related_papers: []
-created: "{{date}}"
+sources: []
+last_updated: "{{date}}"
 ---
 
 # {{name}}

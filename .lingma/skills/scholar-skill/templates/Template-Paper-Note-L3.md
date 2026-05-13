@@ -2,13 +2,15 @@
 type: paper-note
 level: L3
 paper_title: "{{paper_title}}"
-arXiv: "{{arxiv_id}}"
+venue: "{{venue}}"
 date: "{{publication_date}}"
 authors: "{{authors}}"
 fields: "{{fields}}"
 paper_type: "{{paper_type}}"
 reading_date: "{{reading_date}}"
 priority: P0
+sources: [raw/09-archive/{{archived_filename}}.pdf]
+last_updated: "{{date}}"
 ---
 
 # [L3 精读] {{paper_title}}

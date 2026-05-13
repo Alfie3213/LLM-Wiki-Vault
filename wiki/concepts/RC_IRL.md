@@ -2,8 +2,8 @@
 title: "RC-IRL"
 type: concept
 tags: [逆强化学习, 自动驾驶, 奖励学习, 排序学习, 孪生网络, 条件比较]
-sources: [raw/02-papers/An Auto-tuning Framework for Autonomous Vehicles.pdf]
-last_updated: 2026-05-07
+sources: [raw/09-archive/An Auto-tuning Framework for Autonomous Vehicles.pdf]
+last_updated: 2026-05-12
 ---
 
 ## 定义

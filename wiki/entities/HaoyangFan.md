@@ -2,8 +2,8 @@
 title: "Haoyang Fan"
 type: entity
 tags: [研究者, 自动驾驶, 强化学习, 逆强化学习, 百度]
-sources: [raw/02-papers/An Auto-tuning Framework for Autonomous Vehicles.pdf]
-last_updated: 2026-05-07
+sources: [raw/09-archive/An Auto-tuning Framework for Autonomous Vehicles.pdf]
+last_updated: 2026-05-12
 ---
 
 ## 定义

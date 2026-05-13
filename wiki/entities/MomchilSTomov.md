@@ -2,7 +2,7 @@
 title: "Momchil S. Tomov"
 type: entity
 tags: [研究者, 自动驾驶, 运动规划, 逆强化学习, Motional]
-sources: [raw/02-papers/2509.13579v4.pdf]
+sources: [raw/09-archive/TreeIRL - Safe Urban Driving with Tree Search and Inverse Reinforcement Learning.pdf]
 last_updated: 2026-05-12
 ---
 

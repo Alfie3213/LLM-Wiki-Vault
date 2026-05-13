@@ -2,8 +2,8 @@
 title: "CooHOI"
 type: concept
 tags: [机器人学, 多智能体强化学习, 人机交互, 具身智能]
-sources: [raw/02-papers/CooHOI.pdf, 摘要-coohoi]
-last_updated: 2026-05-06
+sources: [raw/09-archive/CooHOI - Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics.pdf, 摘要-coohoi]
+last_updated: 2026-05-12
 ---
 
 ## 定义

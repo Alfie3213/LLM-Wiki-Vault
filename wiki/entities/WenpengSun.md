@@ -2,7 +2,7 @@
 title: "Wenpeng Sun"
 type: entity
 tags: [研究者, 自动驾驶, 智能交通, 河北高速集团]
-sources: [raw/02-papers/vehicles-08-00094-v2.pdf]
+sources: [raw/09-archive/A Trajectory Data-Driven Personalized Autonomous Driving Decision System for Driving Simulators.pdf]
 last_updated: 2026-05-12
 ---
 
