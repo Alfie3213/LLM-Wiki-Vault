@@ -66,6 +66,14 @@
   },
   "savedSessions": [
     {
+      "sessionId": "ses_1de1fbebaffeBL0gX5wjULm5K5",
+      "agentId": "opencode",
+      "cwd": "E:\\CHH3213_KING\\LLM-Wiki-Vault",
+      "title": "/models",
+      "createdAt": "2026-05-13T15:27:50.735Z",
+      "updatedAt": "2026-05-13T15:27:50.735Z"
+    },
+    {
       "sessionId": "ses_1e39047b2ffebALT7b02syRBZR",
       "agentId": "opencode",
       "cwd": "E:\\CHH3213_KING\\LLM-Wiki-Vault",
