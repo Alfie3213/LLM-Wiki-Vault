@@ -13,9 +13,9 @@ last_updated: 2026-05-09
 ## 关键信息
 
 ### 基本问题设定
-在标准 MDP（马尔可夫决策过程）框架下，IRL 的目标是找到奖励函数  \in \mathcal{R}$，使得专家策略 $\pi_E$ 的期望累积奖励高于任何其他策略：
+在标准 MDP（马尔可夫决策过程）框架下，**IRL 的目标是找到奖励函数 $\in \mathcal{R}$  ，使得专家策略 $\pi_E$ 的期望累积奖励高于任何其他策略：**
 
-46420\max_{r \in \mathcal{R}} (\mathbb{E}[V^{\pi_E}(s_0)] - \max_{\pi \in \mathcal{P}} \mathbb{E}[V^{\pi}(s_0)])46420
+$\max_{r \in \mathcal{R}} (\mathbb{E}[V^{\pi_E}(s_0)] - \max_{\pi \in \mathcal{P}} \mathbb{E}[V^{\pi}(s_0)])$ 
 
 其中 $\hat{\pi}_r$ 是在奖励 $ 下通过强化学习估计的最优策略。
 

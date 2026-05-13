@@ -20,13 +20,13 @@ RC-IRL 包含两个关键部分：
 ### 数学形式
 
 传统 IRL 目标：
-46420\max_{r \in \mathcal{R}} (\mathbb{E}[V^{\pi_E}(s_0)] - \max_{\pi \in \Pi} \mathbb{E}[V^{\pi}(s_0)])46420
+$\max_{r \in \mathcal{R}} (\mathbb{E}[V^{\pi_E}(s_0)] - \max_{\pi \in \Pi} \mathbb{E}[V^{\pi}(s_0)])$
 
 RC-IRL 条件比较形式：
-46420\mathbb{E}_{s_0 \sim \mathcal{D}}[V^{\pi_E}(s_0) - V^{\pi_r}(s_0)]46420
+$\mathbb{E}_{s_0 \sim \mathcal{D}}[V^{\pi_E}(s_0) - V^{\pi_r}(s_0)]$
 
 RC-IRL 排序学习形式：
-46420\mathbb{E}_{s_0 \sim \mathcal{D}} \sum_{i=1,...,N} L(V^{\pi_E}(s_0) - V^{\pi_i}(s_0))46420
+$\mathbb{E}_{s_0 \sim \mathcal{D}} \sum_{i=1,...,N} L(V^{\pi_E}(s_0) - V^{\pi_i}(s_0))$
 
 ### 网络架构
 采用 **Siamese 网络（孪生网络）** 架构：
