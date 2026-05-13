@@ -1,3 +1,13 @@
+## [2026-05-12] scholar-skill | L3 精读 Driving with Style 论文 (IROS 2019, arXiv:1905.00229)
+
+- **变更**: 更新 [[syntheses/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]]  frontmatter（修正 sources 路径为 archive、更新 last_updated、规范 venue/paper_title 字段）
+- **升级**: 更新 [[GeneralPurposePlanner]]（修正 sources 路径、更新 last_updated）
+- **升级**: 更新 [[MaximumEntropyIRL]]（修正 sources 路径、更新 last_updated）
+- **验证**: 基于完整 PDF（8 页）重新核对 L3 笔记内容，确认知识准确性和完整性
+- **更新**: 更新 [[log.md]]
+- **冲突**: 无
+- **备注**: 优先级 P1，该 L3 笔记此前已于 2026-05-09 创建（~13KB），本次为 frontmatter 规范化和内容验证
+
 ## [2026-05-12] scholar-skill | L3 精读 Vehicles 2026 论文 (MDPI)
 
 - **变更**: 新增 [[syntheses/2026-Sun-Trajectory-Data-Driven-Personalized-Autonomous-Driving-Decision-System-for-Driving-Simulators]]（L3 精读笔记，~13KB）

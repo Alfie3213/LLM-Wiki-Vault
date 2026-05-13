@@ -2,8 +2,8 @@
 title: "General Purpose Planner"
 type: concept
 tags: [自动驾驶, 运动规划, 行为规划, 通用规划, 图搜索, 模型预测控制]
-sources: [https://arxiv.org/abs/1905.00229]
-last_updated: 2026-05-09
+sources: [raw/09-archive/Driving with Style - Inverse Reinforcement Learning in General-Purpose Planning for Automated Driving.pdf]
+last_updated: 2026-05-12
 l3_note: [[2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]]
 ---
 

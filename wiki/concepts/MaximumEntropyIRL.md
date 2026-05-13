@@ -2,8 +2,8 @@
 title: "Maximum Entropy IRL"
 type: concept
 tags: [逆强化学习, 最大熵, 概率模型, 奖励学习]
-sources: [https://arxiv.org/abs/2006.13704, https://arxiv.org/abs/1905.00229]
-last_updated: 2026-05-09
+sources: [https://arxiv.org/abs/2006.13704, raw/09-archive/Driving with Style - Inverse Reinforcement Learning in General-Purpose Planning for Automated Driving.pdf]
+last_updated: 2026-05-12
 ---
 
 ## 定义
