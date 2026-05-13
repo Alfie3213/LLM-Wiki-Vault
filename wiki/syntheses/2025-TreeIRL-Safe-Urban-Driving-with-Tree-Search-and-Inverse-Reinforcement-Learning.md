@@ -175,6 +175,7 @@ last_updated: 2026-05-13
 **总里程**: TreeIRL 268.4 auto-miles，远超 MCTS (115.8)、DriveIRL-Safe (87.9)、DriveIRL (64.3)
 
 **关键结果**（Table VI 下半）:
+
 | 指标 | MCTS | DriveIRL | DriveIRL-Safe | TreeIRL |
 |---|---|---|---|---|
 | 安全接管（mi/event）↑ | 7.68 | 1.43 | 6.76 | **17.89** |
