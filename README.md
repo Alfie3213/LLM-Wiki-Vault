@@ -2,7 +2,7 @@
 
 An Obsidian-based knowledge management system for academic paper reading and research note-taking, focused on autonomous driving, inverse reinforcement learning (IRL), and motion planning.
 
-> [中文版请见 README_CN.md](README.zh.md)
+> [中文版请见 README_CN.md](README_CN.md)
 
 ## Overview
 
