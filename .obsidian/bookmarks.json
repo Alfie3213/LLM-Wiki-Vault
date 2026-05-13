@@ -1,31 +1,3 @@
 {
-  "items": [
-    {
-      "type": "group",
-      "ctime": 1778678641718,
-      "items": [
-        {
-          "type": "file",
-          "ctime": 1778678673321,
-          "path": "wiki/syntheses/2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1778679239869,
-          "path": "wiki/syntheses/2022-Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1778679315403,
-          "path": "wiki/syntheses/2020-Efficient-Sampling-Based-Maximum-Entropy-IRL.md"
-        },
-        {
-          "type": "file",
-          "ctime": 1778679337521,
-          "path": "wiki/syntheses/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning.md"
-        }
-      ],
-      "title": "IRL-自动驾驶调参高度相关"
-    }
-  ]
+  "items": []
 }
