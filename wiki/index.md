@@ -97,6 +97,7 @@ rXiv:2601.23266)
 - [[摘要-driving-with-style-irl-general-purpose-planning]] — Driving with Style: 将 MaxEnt IRL 与通用型规划器集成，在真实车辆上实现奖励自动调参，学习效果超越专家手动调参 (arXiv:1905.00229)
 - [[sources/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — Driving with Style 论文 L3 精读笔记（~13KB，含规划器算法推导、路径积分 IRL 公式、投影度量分析、实验评估、记忆抽取）
 - [[摘要-treeirl-safe-urban-driving]] — TreeIRL: 将 MCTS 与 IRL 结合实现安全城市驾驶，在模拟和真实世界中均达到 SOTA 性能 (arXiv:2509.13579)
+- [[sources/2025-TreeIRL-Safe-Urban-Driving-with-Tree-Search-and-Inverse-Reinforcement-Learning]] — TreeIRL 论文 L3 精读笔记（~14KB，含完整方法推导、实验分析、延迟优化工程、批判性反思、记忆抽取）
 - [[摘要-mpc-based-imitation-learning]] — MPC-based Imitation Learning: 将 MPC 作为可微分控制层与模仿学习结合，实现安全且类人的自动驾驶控制器 (arXiv:2206.12348)
 - [[摘要-trajectory-data-driven-personalized-autonomous-driving-decision-system]] — A Trajectory Data-Driven Personalized Autonomous Driving Decision System for Driving Simulators: 基于无人机航拍轨迹数据的个性化自动驾驶决策系统，融合 MaxEnt IRL 与 DuDQN，在高保真驾驶模拟器中闭环验证 (Vehicles 2026, 8, 94)
 

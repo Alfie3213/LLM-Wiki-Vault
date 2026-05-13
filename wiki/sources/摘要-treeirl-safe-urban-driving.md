@@ -17,6 +17,7 @@ TreeIRL 采用模块化架构：上游感知模块提供场景上下文，PBP（
 ## 关联连接
 
 - [[TreeIRL]] — 本文提出的核心方法
+- [[sources/2025-TreeIRL-Safe-Urban-Driving-with-Tree-Search-and-Inverse-Reinforcement-Learning]] — L3 精读笔记
 - [[MonteCarloTreeSearch]] — 蒙特卡洛树搜索方法
 - [[DriveIRL]] — TreeIRL 所基于的先验方法
 - [[InverseReinforcementLearning]] — 逆强化学习基础范式

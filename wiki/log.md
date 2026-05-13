@@ -1,3 +1,14 @@
+## [2026-05-12] scholar-skill | L3 精读 TreeIRL 论文 (arXiv:2509.13579)
+
+- **变更**: 新增 [[sources/2025-TreeIRL-Safe-Urban-Driving-with-Tree-Search-and-Inverse-Reinforcement-Learning]]（L3 精读笔记，~14KB）
+- **升级**: 更新 [[TreeIRL]]（补充完整 MDP 形式化、11 项奖励函数、延迟优化工程、部署策略、实验结果、局限分析）
+- **升级**: 更新 [[MonteCarloTreeSearch]]（补充轨迹生成器重新定位、延迟优化范式转变）
+- **升级**: 更新 [[SimToRealGap]]（补充三层评估漏斗、量化对比数据、深层原因分析）
+- **升级**: 更新 [[摘要-treeirl-safe-urban-driving]]（补充 L3 笔记链接）
+- **记忆抽取**: 10 条（6 Semantic + 2 Episodic + 2 Procedural）
+- **冲突**: 无
+- **备注**: 优先级 P0，L3 精读标准，PDF 通过 PyPDF2 提取文本，18 页，Motional 团队，首次 MCTS 真实道路验证，sim-to-real gap 1-2 个数量级
+
 ## [2026-05-12] sync | 配置 wiki/sources/ 按 last_updated 属性降序排序
 - **变更**: 新增 [[wiki/sources/sortspec.md]]（Custom File Explorer Sorting 配置）
 - **备注**: 按笔记 frontmatter `last_updated` 字段从新到旧排列，使用 `> a-z by-metadata: last_updated`
