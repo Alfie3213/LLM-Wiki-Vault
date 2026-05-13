@@ -57,4 +57,4 @@ IRL-DAL 采用五项简单能量项的加权和：
 - [[IRLDAL]] — 应用能量引导扩散的自动驾驶框架
 - [[DiffusionBasedPlanning]] — 基于扩散模型的运动规划
 - [[摘要-irl-dal]] — 来源论文摘要
-- [[2026-IRL-DAL]] — L3 精读笔记
+- [[../syntheses/2026-IRL-DAL]] — L3 精读笔记

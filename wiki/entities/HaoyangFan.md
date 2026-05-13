@@ -23,7 +23,7 @@ Haoyang Fan 是自动驾驶与机器学习研究者，本文《An Auto-tuning Fr
 
 ## 关联连接
 
-- [[2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]] — 其第一作者的代表论文（L3 精读笔记）
+- [[../syntheses/2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]] — 其第一作者的代表论文（L3 精读笔记）
 - [[摘要-auto-tuning-framework-autonomous-vehicles]] — 论文核心摘要
 - [[Apollo]] — 论文中使用的自动驾驶平台
 - [[RC_IRL]] — 论文中提出的核心算法

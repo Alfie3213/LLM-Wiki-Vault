@@ -80,30 +80,37 @@
 - [[摘要-differentiable-integrated-motion-prediction-and-planning]] — Differentiable Integrated Motion Prediction and Planning: 可微分
 集成预测与规划框架，使代价函数可从数据中自动
 学习 (arXiv:2207.10422v2)
-- [[sources/2022-Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving]] — Differentiable Integrated Motion Prediction and Planning: 可微分集成预测与规划框架，Transformer 预测 + Gauss-Newton 可微分优化器 + 可学习代价函数（L3 精读笔记）
-- [[2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]] — An Auto-tuning Framework for Autonomous Vehicles: 基于 Apollo 平台和 RC-IRL 算
+- [[syntheses/2022-Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving]] — Differentiable Integrated Motion Prediction and Planning: 可微分集成预测与规划框架，Transformer 预测 + Gauss-Newton 可微分优化器 + 可学习代价函数（L3 精读笔记）
+- [[syntheses/2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]] — An Auto-tuning Framework for Autonomous Vehicles: 基于 Apollo 平台和 RC-IRL 算
 法的自动驾驶运动规划器自动调参框架（L3 精读笔
 记）
 - [[摘要-auto-tuning-framework-autonomous-vehicles]] — 上述论文的核心摘要
 - [[摘要-ddp-framework-inverse-reinforcement-learning]] — A Differential Dynamic Programming Framework for Inverse Reinforcement Learning: 基于 DDP 的 IRL 框架，提出闭环 IRL 与逆最优控制理论联系
-- [[sources/2026-IRL-DAL]] — IRL-DAL: Safe and Adaptive Trajectory Planning for Autonomous Driving via Energy-Guided Diffusion Models:
+- [[syntheses/2026-IRL-DAL]] — IRL-DAL: Safe and Adaptive Trajectory Planning for Autonomous Driving via Energy-Guided Diffusion Models:
  基于能量引导扩散模型的 IRL 安全自适应轨迹规划框架，SAEC 解耦安全盾 + LAM 极简注意力 +
  能量引导扩散（L3 精读笔记）
 - [[摘要-irl-dal]] — IRL-DAL: Safe and Adaptive Trajectory Planning for Autonomous Driving via Energy-Guided Diffusion Models: 基于能量引导扩散模型的 IRL 安全自适应轨迹规划框架 (a
 rXiv:2601.23266)
 - [[摘要-coohoi]] — CooHOI: Learning Cooperative Human-Object Interaction with Manipulated Object Dynamics (NeurIPS 2024 Spotlight)
 - [[摘要-efficient-sampling-based-maximum-entropy-irl]] — Efficient Sampling-Based Maximum Entropy IRL: 基于采样的最大熵逆强化学习算法，在连续域中从人类驾驶数据学习奖励函数 (arXiv:2006.13704)
-- [[sources/2020-Efficient-Sampling-Based-Maximum-Entropy-IRL]] — SMIRL 论文 L3 精读笔记（~12KB，含完整方法推导、实验分析、批判性反思、记忆抽取）
+- [[syntheses/2020-Efficient-Sampling-Based-Maximum-Entropy-IRL]] — SMIRL 论文 L3 精读笔记（~12KB，含完整方法推导、实验分析、批判性反思、记忆抽取）
 - [[摘要-driving-with-style-irl-general-purpose-planning]] — Driving with Style: 将 MaxEnt IRL 与通用型规划器集成，在真实车辆上实现奖励自动调参，学习效果超越专家手动调参 (arXiv:1905.00229)
-- [[sources/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — Driving with Style 论文 L3 精读笔记（~13KB，含规划器算法推导、路径积分 IRL 公式、投影度量分析、实验评估、记忆抽取）
+- [[syntheses/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — Driving with Style 论文 L3 精读笔记（~13KB，含规划器算法推导、路径积分 IRL 公式、投影度量分析、实验评估、记忆抽取）
 - [[摘要-treeirl-safe-urban-driving]] — TreeIRL: 将 MCTS 与 IRL 结合实现安全城市驾驶，在模拟和真实世界中均达到 SOTA 性能 (arXiv:2509.13579)
-- [[sources/2025-TreeIRL-Safe-Urban-Driving-with-Tree-Search-and-Inverse-Reinforcement-Learning]] — TreeIRL 论文 L3 精读笔记（~14KB，含完整方法推导、实验分析、延迟优化工程、批判性反思、记忆抽取）
+- [[syntheses/2025-TreeIRL-Safe-Urban-Driving-with-Tree-Search-and-Inverse-Reinforcement-Learning]] — TreeIRL 论文 L3 精读笔记（~14KB，含完整方法推导、实验分析、延迟优化工程、批判性反思、记忆抽取）
 - [[摘要-mpc-based-imitation-learning]] — MPC-based Imitation Learning: 将 MPC 作为可微分控制层与模仿学习结合，实现安全且类人的自动驾驶控制器 (arXiv:2206.12348)
 - [[摘要-trajectory-data-driven-personalized-autonomous-driving-decision-system]] — A Trajectory Data-Driven Personalized Autonomous Driving Decision System for Driving Simulators: 基于无人机航拍轨迹数据的个性化自动驾驶决策系统，融合 MaxEnt IRL 与 DuDQN，在高保真驾驶模拟器中闭环验证 (Vehicles 2026, 8, 94)
+- [[syntheses/2026-Sun-Trajectory-Data-Driven-Personalized-Autonomous-Driving-Decision-System-for-Driving-Simulators]] — 无人机航拍数据驱动的个性化自动驾驶决策系统 L3 精读笔记（~13KB，含相对特征设计、博弈+IRL+DuDQN 方法推导、实验深度分析、批判性反思、记忆抽取）
 
 ## 💎 Syntheses (综合层)
 
-*No synthesis pages yet.*
+- [[syntheses/2025-TreeIRL-Safe-Urban-Driving-with-Tree-Search-and-Inverse-Reinforcement-Learning]] — TreeIRL 论文 L3 精读笔记（~14KB）
+- [[syntheses/2026-IRL-DAL]] — IRL-DAL 论文 L3 精读笔记
+- [[syntheses/2020-Efficient-Sampling-Based-Maximum-Entropy-IRL]] — SMIRL 论文 L3 精读笔记（~12KB）
+- [[syntheses/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — Driving with Style 论文 L3 精读笔记（~13KB）
+- [[syntheses/2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]] — Auto-tuning Framework 论文 L3 精读笔记
+- [[syntheses/2022-Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving]] — DIPP 论文 L3 精读笔记
+- [[syntheses/2026-Sun-Trajectory-Data-Driven-Personalized-Autonomous-Driving-Decision-System-for-Driving-Simulators]] — 无人机航拍个性化自动驾驶决策系统 L3 精读笔记（~13KB）
 
 ---
 

@@ -133,7 +133,7 @@ ML 规划器输出不满足运动学可行性，需要后处理。TreeIRL 的发
 ## 关联连接
 
 - [[摘要-treeirl-safe-urban-driving]] — 论文来源摘要
-- [[sources/2025-TreeIRL-Safe-Urban-Driving-with-Tree-Search-and-Inverse-Reinforcement-Learning]] — L3 精读笔记
+- [[syntheses/2025-TreeIRL-Safe-Urban-Driving-with-Tree-Search-and-Inverse-Reinforcement-Learning]] — L3 精读笔记
 - [[MonteCarloTreeSearch]] — TreeIRL 使用的搜索方法
 - [[DriveIRL]] — TreeIRL 所基于的先验架构
 - [[InverseReinforcementLearning]] — IRL 基础范式

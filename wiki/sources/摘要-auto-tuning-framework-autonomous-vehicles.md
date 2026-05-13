@@ -24,4 +24,4 @@ last_updated: 2026-05-07
 - [[HaoyangFan]] — 论文第一作者
 - [[RC_IRL]] — 本文提出的核心算法
 - [[InverseReinforcementLearning]] — RC-IRL 的理论基础
-- [[2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]] — 本文的 L3 精读笔记（详细阅读）
+- [[../syntheses/2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]] — 本文的 L3 精读笔记（详细阅读）

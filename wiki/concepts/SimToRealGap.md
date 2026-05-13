@@ -63,6 +63,6 @@ TreeIRL 提出的系统性评估流程：
 
 - [[TreeIRL]] — 揭示显著 sim-to-real gap 的论文
 - [[摘要-treeirl-safe-urban-driving]] — 论文来源摘要
-- [[sources/2025-TreeIRL-Safe-Urban-Driving-with-Tree-Search-and-Inverse-Reinforcement-Learning]] — L3 精读笔记
+- [[syntheses/2025-TreeIRL-Safe-Urban-Driving-with-Tree-Search-and-Inverse-Reinforcement-Learning]] — L3 精读笔记
 - [[GeneralPurposePlanner]] — 另一种需要考虑 sim-to-real 的规划范式
 - [[Motional]] — 在真实城市道路进行大规模测试的公司

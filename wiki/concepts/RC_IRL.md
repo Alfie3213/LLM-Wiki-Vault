@@ -74,7 +74,7 @@ $\mathbb{E}_{s_0 \sim \mathcal{D}} \sum_{i=1,...,N} L(V^{\pi_E}(s_0) - V^{\pi_i}
 
 ## 关联连接
 
-- [[2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]] — 首次提出 RC-IRL 的论文（L3 精读笔记）
+- [[../syntheses/2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]] — 首次提出 RC-IRL 的论文（L3 精读笔记）
 - [[摘要-auto-tuning-framework-autonomous-vehicles]] — 论文核心摘要
 - [[InverseReinforcementLearning]] — RC-IRL 的理论基础
 - [[Apollo]] — RC-IRL 应用的自动驾驶平台

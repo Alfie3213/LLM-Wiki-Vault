@@ -54,13 +54,13 @@ $\max_{r \in \mathcal{R}} (\mathbb{E}[V^{\pi_E}(s_0)] - \max_{\pi \in \mathcal{P
 - [[RC_IRL]] — 针对自动驾驶场景优化的 IRL 变体，解决传统 IRL 计算昂贵和安全性问题
 - [[SMIRL]] — 基于采样的最大熵 IRL 算法，在连续域中高效学习人类驾驶奖励函数
 - [[MaximumEntropyIRL]] — 最大熵逆强化学习理论基础
-- [[2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]] — 将 IRL 应用于 Apollo 自动驾驶平台运动规划器调参的论文（L3 精读笔记）
+- [[../syntheses/2018-Fan-Auto-tuning-Framework-Autonomous-Vehicles]] — 将 IRL 应用于 Apollo 自动驾驶平台运动规划器调参的论文（L3 精读笔记）
 - [[摘要-auto-tuning-framework-autonomous-vehicles]] — 论文核心摘要
 - [[摘要-irl-dal]] — IRL-DAL 论文核心摘要
 - [[摘要-efficient-sampling-based-maximum-entropy-irl]] — SMIRL 论文核心摘要
-- [[2020-Efficient-Sampling-Based-Maximum-Entropy-IRL]] — SMIRL 论文 L3 精读笔记（~12KB，含完整方法推导、实验分析、批判性反思）
+- [[../syntheses/2020-Efficient-Sampling-Based-Maximum-Entropy-IRL]] — SMIRL 论文 L3 精读笔记（~12KB，含完整方法推导、实验分析、批判性反思）
 - [[摘要-driving-with-style-irl-general-purpose-planning]] — Driving with Style: 将 MaxEnt IRL 与通用型规划器集成，在真实车辆上实现奖励自动调参 (arXiv:1905.00229)
-- [[2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — Driving with Style 论文 L3 精读笔记（~13KB，含规划器算法推导、路径积分 IRL 公式、投影度量分析、实验评估）
+- [[../syntheses/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — Driving with Style 论文 L3 精读笔记（~13KB，含规划器算法推导、路径积分 IRL 公式、投影度量分析、实验评估）
 - [[TreeIRL]] — 将 MCTS 与深度 IRL 结合的自动驾驶规划方法
 - [[摘要-treeirl-safe-urban-driving]] — TreeIRL 论文来源摘要
 - [[GeneralPurposePlanner]] — 通用型规划器范式

@@ -23,7 +23,7 @@ last_updated: 2026-05-12
 ## 关联连接
 
 - [[GeneralPurposePlanner]] — 本文采用的通用型规划范式
-- [[2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — 本文 L3 精读笔记
+- [[../syntheses/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — 本文 L3 精读笔记
 - [[InverseReinforcementLearning]] — 逆强化学习基础范式
 - [[MaximumEntropyIRL]] — 最大熵逆强化学习理论基础
 - [[SMIRL]] — 同样采用采样近似配分函数的连续域 IRL 方法

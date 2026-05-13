@@ -17,6 +17,7 @@ last_updated: 2026-05-12
 ## 关联连接
 
 - [[PersonalizedAutonomousDriving]] — 本文提出的个性化自动驾驶决策系统
+- [[syntheses/2026-Sun-Trajectory-Data-Driven-Personalized-Autonomous-Driving-Decision-System-for-Driving-Simulators]] — L3 精读笔记
 - [[DuelingDQN]] — 本文使用的深度强化学习算法
 - [[MaximumEntropyIRL]] — 本文用于学习偏好权重的理论基础
 - [[WenpengSun]] — 论文第一作者

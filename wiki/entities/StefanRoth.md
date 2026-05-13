@@ -21,6 +21,6 @@ Stefan Roth 是德国达姆施塔特工业大学（Technische Universität Darms
 ## 关联连接
 
 - [[GeneralPurposePlanner]] — 参与提出的通用型规划与 IRL 集成框架
-- [[2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — 论文 L3 精读笔记
+- [[../syntheses/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — 论文 L3 精读笔记
 - [[摘要-driving-with-style-irl-general-purpose-planning]] — 论文来源摘要
 - [[SaschaRosbach]] — 论文第一作者

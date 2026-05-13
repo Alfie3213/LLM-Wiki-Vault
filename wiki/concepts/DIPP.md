@@ -60,7 +60,7 @@ DIPP（Differentiable Integrated Prediction and Planning）是一种用于自动
 
 - [[摘要-differentiable-integrated-motion-pred
 iction-and-planning]] — 论文摘要
-- [[../sources/2022-Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving]] — L3 精读笔记
+- [[../syntheses/2022-Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving]] — L3 精读笔记
 - [[DifferentiableMotionPlanning]] — 可微分运
 动规划技术
 - [[IntegratedPredictionAndPlanning]] — 预测与

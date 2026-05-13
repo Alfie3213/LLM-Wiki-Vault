@@ -76,4 +76,4 @@ last_updated: 2026-05-09
 - [[IRLDAL]] — 基于扩散模型的自动驾驶 IRL 框架
 - [[EnergyGuidedDiffusion]] — 能量引导技术
 - [[摘要-irl-dal]] — 来源论文摘要
-- [[2026-IRL-DAL]] — L3 精读笔记
+- [[../syntheses/2026-IRL-DAL]] — L3 精读笔记

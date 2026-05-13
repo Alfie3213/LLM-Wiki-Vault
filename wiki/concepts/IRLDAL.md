@@ -69,7 +69,7 @@ IRL-DAL（Inverse Reinforcement Learning with Diffusion-based Adaptive Lookahead
 ## 关联连接
 
 - [[摘要-irl-dal]] — 论文摘要
-- [[2026-IRL-DAL]] — L3 精读笔记（完整技术细节与批判性分析）
+- [[../syntheses/2026-IRL-DAL]] — L3 精读笔记（完整技术细节与批判性分析）
 - [[EnergyGuidedDiffusion]] — 能量引导扩散模型技术
 - [[DiffusionBasedPlanning]] — 基于扩散模型的运动规划范式
 - [[LearnableAdaptiveMask]] — 可学习自适应感知掩码

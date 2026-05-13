@@ -24,7 +24,7 @@ last_updated: 2026-05-09
 ## 关联连接
 
 - [[DIPP]] — 本文提出的可微分集成预测与规划框架
-- [[2022-Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving]] — L3 精读笔记（完整技术细节与批判性分析）
+- [[../syntheses/2022-Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving]] — L3 精读笔记（完整技术细节与批判性分析）
 - [[DifferentiableMotionPlanning]] — 可微分运动规划技术
 - [[IntegratedPredictionAndPlanning]] — 预测与规划集成范式
 - [[ZhiyuHuang]] — 第一作者

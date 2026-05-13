@@ -75,7 +75,7 @@ $$d(\zeta, \pi) = \int_t^{t'} \gamma^t ||\zeta_t - \pi_t|| dt$$
 ## 关联连接
 
 - [[摘要-driving-with-style-irl-general-purpose-planning]] — 将 MaxEnt IRL 与通用型规划器集成的论文来源
-- [[2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — 论文 L3 精读笔记（~13KB）
+- [[../syntheses/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]] — 论文 L3 精读笔记（~13KB）
 - [[InverseReinforcementLearning]] — 逆强化学习基础范式
 - [[MaximumEntropyIRL]] — 最大熵逆强化学习理论基础
 - [[SMIRL]] — 另一种结合运动规划先验的采样型 IRL 方法
