@@ -1,14 +1,21 @@
 ---
 type: paper-note
 level: L3
-paper_title: "A Trajectory Data-Driven Personalized Autonomous Driving Decision System for Driving Simulators"
-venue: "Vehicles 2026, 8, 94"
-date: "2026-04-19"
-authors: "Wenpeng Sun, Yu Zhang, Nengchao Lyu"
-fields: ["个性化自动驾驶", "无人机航拍", "逆强化学习", "动态博弈论", "驾驶模拟器", "驾驶风格识别"]
-paper_type: "期刊论文 (MDPI)"
-reading_date: "2026-05-12"
+paper_title: A Trajectory Data-Driven Personalized Autonomous Driving Decision System for Driving Simulators
+venue: Vehicles 2026, 8, 94
+date: 2026-04-19
+authors: Wenpeng Sun, Yu Zhang, Nengchao Lyu
+fields:
+  - 个性化自动驾驶
+  - 无人机航拍
+  - 逆强化学习
+  - 动态博弈论
+  - 驾驶模拟器
+  - 驾驶风格识别
+paper_type: 期刊论文 (MDPI)
+reading_date: 2026-05-12
 priority: P1
+last_updated: 2026-05-13
 ---
 
 # [L3 精读] A Trajectory Data-Driven Personalized Autonomous Driving Decision System for Driving Simulators
