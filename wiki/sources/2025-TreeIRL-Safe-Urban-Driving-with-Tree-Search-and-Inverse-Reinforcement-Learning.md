@@ -3,12 +3,19 @@ type: paper-note
 level: L3
 paper_title: "TreeIRL: Safe Urban Driving with Tree Search and Inverse Reinforcement Learning"
 arXiv: "2509.13579"
-date: "2025-10-25"
-authors: "Momchil S. Tomov, Sang Uk Lee, Hansford Hendargo, Jinwook Huh, Teawon Han, Forbes Howington, Rafael da Silva, Gianmarco Bernasconi, Marc Heim, Samuel Findler, Xiaonan Ji, Alexander Boule, Michael Napoli, Kuo Chen, Jesse Miller, Boaz Floor, Yunqing Hu"
-fields: ["逆强化学习", "蒙特卡洛树搜索", "自动驾驶", "运动规划", "模拟到真实", "混合方法"]
-paper_type: "会议/期刊投稿"
-reading_date: "2026-05-12"
+date: 2025-10-25
+authors: Momchil S. Tomov, Sang Uk Lee, Hansford Hendargo, Jinwook Huh, Teawon Han, Forbes Howington, Rafael da Silva, Gianmarco Bernasconi, Marc Heim, Samuel Findler, Xiaonan Ji, Alexander Boule, Michael Napoli, Kuo Chen, Jesse Miller, Boaz Floor, Yunqing Hu
+fields:
+  - 逆强化学习
+  - 蒙特卡洛树搜索
+  - 自动驾驶
+  - 运动规划
+  - 模拟到真实
+  - 混合方法
+paper_type: 会议/期刊投稿
+reading_date: 2026-05-12
 priority: P0
+last_updated: 2026-05-13
 ---
 
 # [L3 精读] TreeIRL: Safe Urban Driving with Tree Search and Inverse Reinforcement Learning
