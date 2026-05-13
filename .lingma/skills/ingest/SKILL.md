@@ -34,6 +34,23 @@ user-invocable: true
 
 对每个待处理源文件，严格按以下步骤执行：
 
+### 步骤 0：规范化 PDF 文件名（仅限 `.pdf` 文件）
+
+**目的**：确保归档后的 `sources` 路径从始至终正确，避免后续批量修正。
+
+**规则**：
+1. 读取 PDF 内容，提取**论文标题**（优先从第一页标题区域提取，若无法提取则使用 arXiv API / 搜索工具查询）。
+2. 将原始文件名与论文标题对比：
+   - 若文件名**已经是**论文标题（允许大小写和标点的微小差异）→ 跳过此步骤
+   - 若文件名**不是**论文标题（如 `2207.10422v2.pdf`、`vehicles-08-00094-v2.pdf`）→ **先重命名为论文标题**
+3. 重命名格式：`{Paper Title}.pdf`，保留原始文件扩展名
+
+**示例**：
+- `2207.10422v2.pdf` → `Differentiable Integrated Motion Prediction and Planning with Learnable Cost Function for Autonomous Driving.pdf`
+- `vehicles-08-00094-v2.pdf` → `A Trajectory Data-Driven Personalized Autonomous Driving Decision System for Driving Simulators.pdf`
+
+**重要**：重命名必须在**任何 wiki 文件生成之前**完成，确保后续所有 `sources` frontmatter 直接指向归档后的正确路径。
+
 ### 步骤 1：读取源文件
 
 - **如果是 `.md` 文件**：使用读取工具完整读取内容。
@@ -143,6 +160,8 @@ last_updated: YYYY-MM-DD
 - 实体/概念页面已创建或更新
 - index.md 已更新
 - log.md 已更新
+
+**归档时的文件名**：使用步骤 0 重命名后的论文标题作为文件名（已重命名则直接移动，未重命名则在此步骤重命名后再移动）。
 
 **绝对禁止修改源文件内部的文字。**
 

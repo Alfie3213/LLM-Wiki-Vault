@@ -2,14 +2,21 @@
 type: paper-note
 level: L3
 paper_title: "Driving with Style: Inverse Reinforcement Learning in General-Purpose Planning for Automated Driving"
-venue: "IROS 2019 / arXiv:1905.00229"
-date: "2019-05-01"
-authors: "Sascha Rosbach, Vinit James, Simon Großjohann, Silviu Homoceanu, Stefan Roth"
-fields: ["逆强化学习", "自动驾驶", "运动规划", "通用规划器", "最大熵", "驾驶风格"]
-paper_type: "会议论文 (IROS)"
-reading_date: "2026-05-12"
+venue: IROS 2019 / arXiv:1905.00229
+date: 2019-05-01
+authors: Sascha Rosbach, Vinit James, Simon Großjohann, Silviu Homoceanu, Stefan Roth
+fields:
+  - 逆强化学习
+  - 自动驾驶
+  - 运动规划
+  - 通用规划器
+  - 最大熵
+  - 驾驶风格
+paper_type: 会议论文 (IROS)
+reading_date: 2026-05-12
 priority: P1
-sources: [raw/09-archive/Driving with Style - Inverse Reinforcement Learning in General-Purpose Planning for Automated Driving.pdf]
+sources:
+  - raw/09-archive/Driving with Style - Inverse Reinforcement Learning in General-Purpose Planning for Automated Driving.pdf
 last_updated: 2026-05-12
 ---
 
