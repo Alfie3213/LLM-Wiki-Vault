@@ -1,16 +1,22 @@
 ---
 type: paper-note
 level: L3
-paper_title: "Automatic Parameter Tuning of Self-Driving Vehicles"
-venue: "2024 IEEE Conference on Control Technology and Applications (CCTA)"
-date: "2024-06-25"
-authors: "Hung-Ju Wu, Vladislav Nenchev, Christian Rathgeber"
-fields: [自动驾驶, 参数调优, 模型预测控制, 最优控制, 专家示范]
-paper_type: "应用研究论文"
-reading_date: "2025-05-14"
+paper_title: Automatic Parameter Tuning of Self-Driving Vehicles
+venue: 2024 IEEE Conference on Control Technology and Applications (CCTA)
+date: 2024-06-25
+authors: Hung-Ju Wu, Vladislav Nenchev, Christian Rathgeber
+fields:
+  - 自动驾驶
+  - 参数调优
+  - 模型预测控制
+  - 最优控制
+  - 专家示范
+paper_type: 应用研究论文
+reading_date: 2025-05-14
 priority: P1
-sources: [raw/09-archive/Automatic Parameter Tuning of Self-Driving Vehicles.pdf]
-last_updated: "2025-05-14"
+sources:
+  - raw/09-archive/Automatic Parameter Tuning of Self-Driving Vehicles.pdf
+last_updated: 2026-05-14
 ---
 
 # [L3 精读] Automatic Parameter Tuning of Self-Driving Vehicles

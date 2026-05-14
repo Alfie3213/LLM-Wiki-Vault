@@ -1,4 +1,4 @@
-## [2025-05-14] scholar-skill | L3 精读 Automatic Parameter Tuning of Self-Driving Vehicles (CCTA 2024, arXiv:2406.17757)
+## [2026-05-14] scholar-skill | L3 精读 Automatic Parameter Tuning of Self-Driving Vehicles (CCTA 2024, arXiv:2406.17757)
 
 - **变更**: 新增 [[syntheses/2024-Wu-Automatic-Parameter-Tuning-of-Self-Driving-Vehicles]]（L3 精读笔记，~14KB，592 行）
 - **升级**: 更新 [[AutomaticParameterTuning]]（添加 L3 精读笔记链接、更新 last_updated）
@@ -9,13 +9,13 @@
 - **冲突**: 无
 - **备注**: 优先级 P1，L3 精读标准，PDF 通过 PyPDF2 提取文本，6 页，BMW Group，闭环仿真代价函数 + 梯度下降/无迹卡尔曼滤波/最大似然估计三种局部优化策略
 
-## [2025-05-14] ingest | 编译 arXiv:2406.17757 (Automatic Parameter Tuning of Self-Driving Vehicles)
+## [2026-05-14] ingest | 编译 arXiv:2406.17757 (Automatic Parameter Tuning of Self-Driving Vehicles)
 
 - **变更**: 新增 [[摘要-automatic-parameter-tuning-self-driving-vehicles]]、[[HungJuWu]]、[[VladislavNenchev]]、[[ChristianRathgeber]]、[[BMWGroup]]、[[AutomaticParameterTuning]]; 更新 [[index.md]]
 - **冲突**: 无
 - **备注**: arXiv URL 摄入，PDF 已下载并重命名（6 页，405KB），基于专家示范的自动驾驶 MPC 参数自动调优方法，比较梯度下降/无迹卡尔曼滤波/最大似然估计三种优化策略，BMW Group 研究者，CCTA 2024
 
-## [2025-05-13] scholar-skill | L3 精读 arXiv:2505.08619 (Cost Function Estimation Using IRL with Minimal Observations)
+## [2026-05-13] scholar-skill | L3 精读 arXiv:2505.08619 (Cost Function Estimation Using IRL with Minimal Observations)
 
 - **变更**: 新增 [[syntheses/2025-Mehrdad-Cost-Function-Estimation-Using-Inverse-Reinforcement-Learning-with-Minimal-Observations]]（L3 精读笔记，~13KB，571 行）
 - **升级**: 更新 [[MaximumEntropyIRL]]（添加 L3 精读笔记链接、更新 last_updated）
@@ -27,7 +27,7 @@
 - **冲突**: 无
 - **备注**: 优先级 P1，L3 精读标准，PDF 通过 PyPDF2 提取文本，8 页，NYU Tandon + ANITI，最优控制采样 + 迭代步长接受策略 + 移动窗口 + 弹性网络正则化
 
-## [2025-05-13] ingest | 编译 arXiv:2505.08619 (Cost Function Estimation Using IRL with Minimal Observations)
+## [2026-05-13] ingest | 编译 arXiv:2505.08619 (Cost Function Estimation Using IRL with Minimal Observations)
 
 - **变更**: 新增 [[摘要-cost-function-estimation-irl-minimal-observations]]、[[SarmadMehrdad]]、[[AvadeshMeduri]]、[[LudovicRighetti]]; 更新 [[MaximumEntropyIRL]]、[[InverseReinforcementLearning]]、[[index.md]]
 - **冲突**: 无
