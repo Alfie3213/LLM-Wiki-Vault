@@ -1,9 +1,15 @@
 ---
-title: "摘要-cost-function-estimation-irl-minimal-observations"
+title: 摘要-cost-function-estimation-irl-minimal-observations
 type: source
-tags: [来源, 原始文件, 逆强化学习, 最大熵, 代价函数估计]
-sources: [raw/09-archive/Cost Function Estimation Using Inverse Reinforcement Learning with Minimal Observations.pdf]
-last_updated: 2025-05-13
+tags:
+  - 来源
+  - 原始文件
+  - 逆强化学习
+  - 最大熵
+  - 代价函数估计
+sources:
+  - raw/09-archive/Cost Function Estimation Using Inverse Reinforcement Learning with Minimal Observations.pdf
+last_updated: 2026-05-13
 ---
 
 ## 核心摘要

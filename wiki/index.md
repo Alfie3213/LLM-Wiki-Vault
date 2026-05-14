@@ -29,6 +29,7 @@
 - [[DriveIRL]] — Motional 提出的模块化深度神经网络规划架构，TreeIRL 的前身方法
 - [[SimToRealGap]] — 模拟器表现与真实世界表现之间的差异，自动驾驶规划评估的关键问题
 - [[MPCbasedImitationLearning]] — 将 MPC 作为可微分控制层嵌入模仿学习的自动驾驶控制器学习方法，兼顾安全性与类人性
+- [[AutomaticParameterTuning]] — 通过优化算法自动调整自动驾驶系统参数以匹配专家示范的技术
 - [[BehavioralCloningFromObservations]] — 仅需状态观察序列、通过逆动力学模型推断动作的模仿学习变体
 - [[PersonalizedAutonomousDriving]] — 基于无人机航拍轨迹数据和 MaxEnt IRL 的个性化自动驾驶决策系统，在高保真驾驶模拟器中验证
 - [[DuelingDQN]] — 将 Q 函数分解为状态价值与动作优势的深度强化学习架构
@@ -77,6 +78,10 @@
 - [[SarmadMehrdad]] — 迭代 MaxEnt IRL 代价函数估计论文第一作者，逆强化学习研究者
 - [[AvadeshMeduri]] — 机器人学与控制理论研究学者
 - [[LudovicRighetti]] — 机器人学与控制理论领域研究学者
+- [[HungJuWu]] — BMW Group 研究者，自动驾驶参数自动调优论文第一作者
+- [[VladislavNenchev]] — BMW Group 研究者，控制理论与参数优化
+- [[ChristianRathgeber]] — BMW Group 研究者，轨迹规划与控制
+- [[BMWGroup]] — 德国跨国豪华汽车和摩托车制造商，慕尼黑总部
 
 ## 🔍 Sources (来源层)
 
@@ -106,8 +111,11 @@ rXiv:2601.23266)
 - [[syntheses/2026-Sun-Trajectory-Data-Driven-Personalized-Autonomous-Driving-Decision-System-for-Driving-Simulators]] — 无人机航拍数据驱动的个性化自动驾驶决策系统 L3 精读笔记（~13KB，含相对特征设计、博弈+IRL+DuDQN 方法推导、实验深度分析、批判性反思、记忆抽取）
 - [[syntheses/2025-Mehrdad-Cost-Function-Estimation-Using-Inverse-Reinforcement-Learning-with-Minimal-Observations]] — MO-IRL 论文 L3 精读笔记（~13KB，含完整方法推导、实验分析、批判性反思、记忆抽取）
 - [[摘要-cost-function-estimation-irl-minimal-observations]] — Cost Function Estimation Using IRL with Minimal Observations: 基于最大熵准则的迭代逆强化学习算法，通过最优控制采样实现最小观测下的连续空间代价函数估计 (arXiv:2505.08619)
+- [[摘要-automatic-parameter-tuning-self-driving-vehicles]] — Automatic Parameter Tuning of Self-Driving Vehicles: 基于专家示范的自动驾驶 MPC 参数自动调优方法，比较梯度下降/无迹卡尔曼滤波/最大似然估计三种优化策略 (CCTA 2024, arXiv:2406.17757)
 
 ## 💎 Syntheses (综合层)
+
+- [[syntheses/2024-Wu-Automatic-Parameter-Tuning-of-Self-Driving-Vehicles]] — Automatic Parameter Tuning of Self-Driving Vehicles 论文 L3 精读笔记（~14KB，含完整方法推导、三种优化策略深度对比、实验分析、批判性反思、记忆抽取）
 
 - [[syntheses/2025-TreeIRL-Safe-Urban-Driving-with-Tree-Search-and-Inverse-Reinforcement-Learning]] — TreeIRL 论文 L3 精读笔记（~14KB）
 - [[syntheses/2026-IRL-DAL]] — IRL-DAL 论文 L3 精读笔记
@@ -121,4 +129,4 @@ rXiv:2601.23266)
 
 > ℹ️ This index is automatically updated by the
   and  skills.
-> Last updated: 2025-05-13
+> Last updated: 2025-05-14
