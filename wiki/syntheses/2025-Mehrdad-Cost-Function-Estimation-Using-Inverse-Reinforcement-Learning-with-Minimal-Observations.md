@@ -1,16 +1,22 @@
 ---
 type: paper-note
 level: L3
-paper_title: "Cost Function Estimation Using Inverse Reinforcement Learning with Minimal Observations"
-venue: "arXiv preprint"
-date: "2025-05-13"
-authors: "Sarmad Mehrdad, Avadesh Meduri, Ludovic Righetti"
-fields: [逆强化学习, 最大熵, 代价函数估计, 最优控制, 机器人学]
-paper_type: "方法论论文"
-reading_date: "2025-05-13"
+paper_title: Cost Function Estimation Using Inverse Reinforcement Learning with Minimal Observations
+venue: arXiv preprint
+date: 2025-05-13
+authors: Sarmad Mehrdad, Avadesh Meduri, Ludovic Righetti
+fields:
+  - 逆强化学习
+  - 最大熵
+  - 代价函数估计
+  - 最优控制
+  - 机器人学
+paper_type: 方法论论文
+reading_date: 2025-05-13
 priority: P1
-sources: [raw/09-archive/Cost Function Estimation Using Inverse Reinforcement Learning with Minimal Observations.pdf]
-last_updated: "2025-05-13"
+sources:
+  - raw/09-archive/Cost Function Estimation Using Inverse Reinforcement Learning with Minimal Observations.pdf
+last_updated: 2026-05-14
 ---
 
 # [L3 精读] Cost Function Estimation Using Inverse Reinforcement Learning with Minimal Observations
