@@ -19,5 +19,6 @@ Sarmad Mehrdad 是逆强化学习与代价函数估计研究者，论文《Cost 
 ## 关联连接
 
 - [[摘要-cost-function-estimation-irl-minimal-observations]] — 代表论文来源
+- [[syntheses/2025-Mehrdad-Cost-Function-Estimation-Using-Inverse-Reinforcement-Learning-with-Minimal-Observations]] — 论文 L3 精读笔记
 - [[MaximumEntropyIRL]] — 论文核心方法基础
 - [[InverseReinforcementLearning]] — 研究领域

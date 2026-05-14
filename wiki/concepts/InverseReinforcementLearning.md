@@ -66,3 +66,4 @@ $\max_{r \in \mathcal{R}} (\mathbb{E}[V^{\pi_E}(s_0)] - \max_{\pi \in \mathcal{P
 - [[GeneralPurposePlanner]] — 通用型规划器范式
 - [[CTDE]] — 集中训练分散执行，多智能体学习中的条件化思想
 - [[摘要-cost-function-estimation-irl-minimal-observations]] — 基于迭代 MaxEnt IRL 的连续空间代价函数估计，最小观测设置（arXiv:2505.08619）
+- [[syntheses/2025-Mehrdad-Cost-Function-Estimation-Using-Inverse-Reinforcement-Learning-with-Minimal-Observations]] — MO-IRL 论文 L3 精读笔记（~13KB，含完整方法推导、实验分析、批判性反思、记忆抽取）

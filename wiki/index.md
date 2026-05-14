@@ -104,6 +104,7 @@ rXiv:2601.23266)
 - [[摘要-mpc-based-imitation-learning]] — MPC-based Imitation Learning: 将 MPC 作为可微分控制层与模仿学习结合，实现安全且类人的自动驾驶控制器 (arXiv:2206.12348)
 - [[摘要-trajectory-data-driven-personalized-autonomous-driving-decision-system]] — A Trajectory Data-Driven Personalized Autonomous Driving Decision System for Driving Simulators: 基于无人机航拍轨迹数据的个性化自动驾驶决策系统，融合 MaxEnt IRL 与 DuDQN，在高保真驾驶模拟器中闭环验证 (Vehicles 2026, 8, 94)
 - [[syntheses/2026-Sun-Trajectory-Data-Driven-Personalized-Autonomous-Driving-Decision-System-for-Driving-Simulators]] — 无人机航拍数据驱动的个性化自动驾驶决策系统 L3 精读笔记（~13KB，含相对特征设计、博弈+IRL+DuDQN 方法推导、实验深度分析、批判性反思、记忆抽取）
+- [[syntheses/2025-Mehrdad-Cost-Function-Estimation-Using-Inverse-Reinforcement-Learning-with-Minimal-Observations]] — MO-IRL 论文 L3 精读笔记（~13KB，含完整方法推导、实验分析、批判性反思、记忆抽取）
 - [[摘要-cost-function-estimation-irl-minimal-observations]] — Cost Function Estimation Using IRL with Minimal Observations: 基于最大熵准则的迭代逆强化学习算法，通过最优控制采样实现最小观测下的连续空间代价函数估计 (arXiv:2505.08619)
 
 ## 💎 Syntheses (综合层)

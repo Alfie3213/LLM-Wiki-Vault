@@ -1,3 +1,15 @@
+## [2025-05-13] scholar-skill | L3 精读 arXiv:2505.08619 (Cost Function Estimation Using IRL with Minimal Observations)
+
+- **变更**: 新增 [[syntheses/2025-Mehrdad-Cost-Function-Estimation-Using-Inverse-Reinforcement-Learning-with-Minimal-Observations]]（L3 精读笔记，~13KB，571 行）
+- **升级**: 更新 [[MaximumEntropyIRL]]（添加 L3 精读笔记链接、更新 last_updated）
+- **升级**: 更新 [[InverseReinforcementLearning]]（添加 L3 精读笔记链接、更新 last_updated）
+- **升级**: 更新 [[SarmadMehrdad]]、[[AvadeshMeduri]]、[[LudovicRighetti]]（添加 L3 精读笔记链接）
+- **更新**: 更新 [[index.md]]（注册 L3 笔记到综合层）
+- **记忆抽取**: 11 条（6 Semantic + 2 Episodic + 3 Procedural）
+- **知识升级**: 常驻记忆块新增 3 条核心规则（OC 采样优先、验证闭环、最小样本集）；旧知识修订 3 项（MaxEnt IRL 样本需求、采样策略地位、连续域实现哲学扩展为 5 种）
+- **冲突**: 无
+- **备注**: 优先级 P1，L3 精读标准，PDF 通过 PyPDF2 提取文本，8 页，NYU Tandon + ANITI，最优控制采样 + 迭代步长接受策略 + 移动窗口 + 弹性网络正则化
+
 ## [2025-05-13] ingest | 编译 arXiv:2505.08619 (Cost Function Estimation Using IRL with Minimal Observations)
 
 - **变更**: 新增 [[摘要-cost-function-estimation-irl-minimal-observations]]、[[SarmadMehrdad]]、[[AvadeshMeduri]]、[[LudovicRighetti]]; 更新 [[MaximumEntropyIRL]]、[[InverseReinforcementLearning]]、[[index.md]]

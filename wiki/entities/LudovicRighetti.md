@@ -19,5 +19,6 @@ Ludovic Righetti 是机器人学与控制理论领域的研究学者，论文《
 ## 关联连接
 
 - [[摘要-cost-function-estimation-irl-minimal-observations]] — 代表论文来源
+- [[syntheses/2025-Mehrdad-Cost-Function-Estimation-Using-Inverse-Reinforcement-Learning-with-Minimal-Observations]] — 论文 L3 精读笔记
 - [[MaximumEntropyIRL]] — 论文核心方法基础
 - [[OptimalControl]] — 研究领域
