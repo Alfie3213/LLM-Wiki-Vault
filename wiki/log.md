@@ -1,3 +1,9 @@
+## [2025-05-13] ingest | 编译 arXiv:2505.08619 (Cost Function Estimation Using IRL with Minimal Observations)
+
+- **变更**: 新增 [[摘要-cost-function-estimation-irl-minimal-observations]]、[[SarmadMehrdad]]、[[AvadeshMeduri]]、[[LudovicRighetti]]; 更新 [[MaximumEntropyIRL]]、[[InverseReinforcementLearning]]、[[index.md]]
+- **冲突**: 无
+- **备注**: arXiv URL 摄入，PDF 已下载并重命名，基于最大熵准则的迭代逆强化学习算法，通过最优控制采样实现最小观测下的连续空间代价函数估计
+
 ## [2026-05-12] scholar-skill | L3 精读 Driving with Style 论文 (IROS 2019, arXiv:1905.00229)
 
 - **变更**: 更新 [[syntheses/2019-Rosbach-Driving-With-Style-IRL-General-Purpose-Planning]]  frontmatter（修正 sources 路径为 archive、更新 last_updated、规范 venue/paper_title 字段）

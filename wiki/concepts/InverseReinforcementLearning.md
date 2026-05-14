@@ -3,7 +3,7 @@ title: "Inverse Reinforcement Learning"
 type: concept
 tags: [强化学习, 模仿学习, 奖励学习, 逆强化学习]
 sources: [raw/09-archive/An Auto-tuning Framework for Autonomous Vehicles.pdf, https://arxiv.org/abs/2006.13704, https://arxiv.org/abs/1905.00229]
-last_updated: 2026-05-12
+last_updated: 2025-05-13
 ---
 
 ## 定义
@@ -65,3 +65,4 @@ $\max_{r \in \mathcal{R}} (\mathbb{E}[V^{\pi_E}(s_0)] - \max_{\pi \in \mathcal{P
 - [[摘要-treeirl-safe-urban-driving]] — TreeIRL 论文来源摘要
 - [[GeneralPurposePlanner]] — 通用型规划器范式
 - [[CTDE]] — 集中训练分散执行，多智能体学习中的条件化思想
+- [[摘要-cost-function-estimation-irl-minimal-observations]] — 基于迭代 MaxEnt IRL 的连续空间代价函数估计，最小观测设置（arXiv:2505.08619）
